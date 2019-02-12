@@ -1,0 +1,56 @@
+.List-Component {
+  background-color: #282c34;
+  font-size: 0.75rem;
+  color: white;
+  text-align: left;
+}
+
+td, th {
+  padding: 0.5rem;
+}
+
+.Code {
+  min-width: 5.5rem;
+}
+
+.Work {
+  text-align: center;
+}
+
+.Rank {
+  text-align: center;
+}
+
+.Name {
+  width: 100%;
+}
+
+.Count {
+  text-align: center;
+  color: #fff;
+}
+
+.position-relative.row.form-group {
+  align-items: center;
+  justify-content: center;
+}
+
+.position-relative.form-check {
+  display: flex;
+  color: #ffffff;
+}
+
+@media (min-width: 512px) {
+  .List-Component {
+    font-size: 1rem;
+  }
+  .Code {
+    min-width: 7rem;
+  }
+}
+
+@media (max-width: 511px) {
+  .Work {
+    display: none;
+  }
+}
