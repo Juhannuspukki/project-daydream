@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container } from 'reactstrap';
 import './NavBar.css';
+import { Link } from 'react-router-dom'
 
 
-class NavBar extends Component {
-  render() {
-    return (
-      <Container>
-        <h1 className={"Header"}>TUT Course&#8209;o&#8209;meter</h1>
-      </Container>
-    );
-  }
-}
+const NavBar = () => (
+  <Container>
+    <Link className={"Info-Button"} to='/wtf'>?</Link>
+    <div>
+      <Link className={"Link-Button"} to='/'>
+        <p className={"Pre-Header"}>The incredible</p>
+        <h1 className={"Header"}>Course&#8209;o&#8209;Meter</h1>
+      </Link>
+    </div>
+  </Container>
+);
 
 export default NavBar;

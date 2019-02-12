@@ -1,0 +1,30 @@
+.Course-Name {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.Course-Codes {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+.Course-Grades {
+  color: #ffffff;
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.Chart {
+  margin-bottom: 3rem;
+}
+
+.recharts-text {
+  fill: #ffffff;
+}
+
+.recharts-legend-item-text{
+  color: #ffffff;
+}

@@ -1,15 +1,45 @@
-.Nav-Link {
+.Info-Button {
+  position: relative;
+  top: 1rem;
+  right: calc(-100% + 2rem);
+  display: block;
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+  border: 1px solid #fff;
+  z-index: 1130;
   text-align: center;
+  line-height: 1.75rem;
+  width: 2rem;
+  border-radius: 50%;
 }
 
-.Nav-Link > a {
+.Info-Button:hover {
+  text-decoration: none;
+  background-color: #355f8c;
   color: #fff;
-  font-size: 2rem;
-  line-height: 4rem;
+}
+
+.Pre-Header {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 1rem 0 0 0;
 }
 
 .Header {
   color: #ffffff;
   text-align: center;
-  margin: 3rem 0;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
+}
+ .Link-Button:hover {
+   text-decoration: none;
+ }
+
+@media (max-width: 511px) {
+  .Header {
+    font-size: 2.5rem;
+  }
 }

@@ -1,0 +1,12 @@
+.YearButton > button, .show>.btn-secondary.dropdown-toggle {
+  outline-color: transparent;
+  outline-style: none;
+  box-shadow: none;
+  background-color: #171f28;
+  border-color: #ffffff;
+}
+
+.YearButton > button:hover {
+  background-color: #355f8c;
+  border-color: #ffffff;
+}

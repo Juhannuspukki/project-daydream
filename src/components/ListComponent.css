@@ -1,5 +1,5 @@
 .List-Component {
-  background-color: #282c34;
+  background-color: #171f28;
   font-size: 0.75rem;
   color: white;
   text-align: left;
@@ -7,6 +7,15 @@
 
 td, th {
   padding: 0.5rem;
+  cursor: pointer;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #1e2a38;
+}
+
+tbody > tr:hover {
+  background-color: #355f8c;
 }
 
 .Code {
@@ -25,9 +34,11 @@ td, th {
   width: 100%;
 }
 
-.Count {
+.Counter {
+  font-size: 0.75rem;
   text-align: center;
   color: #fff;
+  padding: 0.5rem
 }
 
 .position-relative.row.form-group {
@@ -50,7 +61,12 @@ td, th {
 }
 
 @media (max-width: 511px) {
+  .List-Component {
+    margin: 0 -15px;
+  }
+  
   .Work {
     display: none;
   }
+  
 }

@@ -1,24 +1,44 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import ListComponent from "./ListComponent";
-import initial from '../kaiku-17-18.json';
 import TextComponent from "./TextComponent";
+import Course from "./Course";
 
+class Main extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      filter: '',
+      showAll: false,
+      showAbsolutes: false,
+      year: "18-19",
+      sort: {
+        column: "grade",
+        direction: "desc"
+      }
+    };
+    
+    this.saveState = this.saveState.bind(this);
+  }
+  
+  saveState(data) {
+    this.setState(data);
+  }
+  
+  render() {
+    
+    return (
+      <main>
+        <Switch>
+          <Route exact path='/'
+                 render={(props) => (<ListComponent {...props} settings={this.state} saveState={this.saveState} />)}
+          />
+          <Route path='/wtf' component={TextComponent}/>
+          <Route path={'/course/:name'} component={Course}/>
+        </Switch>
+      </main>
+    );
+  }
+}
 
-// The Main component renders one of the three provided
-// Routes (provided that one matches). Both the /roster
-// and /schedule routes will match any pathname that starts
-// with /roster or /schedule. The / route will only match
-// when the pathname is exactly the string "/"
-const Main = () => (
-  <main>
-    <Switch>
-      <Route exact path='/'
-         render={(props) => (<ListComponent {...props} data={initial} />)}
-      />
-      <Route path='/wtf' component={TextComponent}/>
-    </Switch>
-  </main>
-)
-
-export default Main
+export default Main;
