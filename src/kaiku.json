@@ -6827,7 +6827,7 @@
         "grade": 3.32,
         "work": 6,
         "sampleSize": 416,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MAT-02500",
@@ -6872,7 +6872,7 @@
         "grade": 3.32,
         "work": 44,
         "sampleSize": 233,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -9060,7 +9060,7 @@
         "grade": 3.22,
         "work": 15,
         "sampleSize": 48,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -9907,7 +9907,7 @@
         "grade": 3.62,
         "work": -5,
         "sampleSize": 44,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -10243,7 +10243,7 @@
         "grade": 3.19,
         "work": -5,
         "sampleSize": 191,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TTA-52020",
@@ -13111,7 +13111,7 @@
         "grade": 3.26,
         "work": -13,
         "sampleSize": 76,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "ASE-2150",
@@ -13526,7 +13526,7 @@
         "grade": 2.87,
         "work": 15,
         "sampleSize": 51,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "KEB-21100",
@@ -13733,7 +13733,7 @@
         "grade": 2.79,
         "work": 7,
         "sampleSize": 31,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "TLO-32000",
@@ -14494,7 +14494,7 @@
         "grade": 3.0,
         "work": 5,
         "sampleSize": 137,
-        "letter": "I"
+        "letter": "A"
       }
     ]
   },
@@ -14728,7 +14728,7 @@
         "grade": 3.49,
         "work": 32,
         "sampleSize": 32,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -17903,7 +17903,7 @@
         "grade": 3.22,
         "work": -10,
         "sampleSize": 94,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -18055,7 +18055,7 @@
         "grade": 2.88,
         "work": -5,
         "sampleSize": 27,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "RAK-22320",
@@ -19495,7 +19495,7 @@
         "grade": 3.18,
         "work": 2,
         "sampleSize": 35,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "FYS-1350",
@@ -19665,7 +19665,7 @@
         "grade": 3.27,
         "work": 17,
         "sampleSize": 25,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TIE-41206",
@@ -19715,7 +19715,7 @@
         "grade": 3.23,
         "work": 6,
         "sampleSize": 22,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "RAK-33010",
@@ -20230,7 +20230,7 @@
         "grade": 2.77,
         "work": 79,
         "sampleSize": 52,
-        "letter": "I"
+        "letter": "A"
       }
     ]
   },
@@ -21508,7 +21508,7 @@
         "grade": 2.79,
         "work": 10,
         "sampleSize": 217,
-        "letter": "I"
+        "letter": "A"
       }
     ]
   },
@@ -21873,7 +21873,7 @@
         "grade": 2.88,
         "work": -5,
         "sampleSize": 21,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "KEB-63250",
@@ -21902,7 +21902,7 @@
         "grade": 2.88,
         "work": 9,
         "sampleSize": 25,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "MOL-42037",
@@ -22321,7 +22321,7 @@
         "grade": 3.01,
         "work": 26,
         "sampleSize": 41,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "MAT-60250",
@@ -24335,7 +24335,7 @@
         "grade": 2.8,
         "work": 8,
         "sampleSize": 31,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "RAK-33080",
@@ -26606,7 +26606,7 @@
         "grade": 3.02,
         "work": 12,
         "sampleSize": 57,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "MEI-61006",
@@ -26772,7 +26772,7 @@
         "grade": 2.82,
         "work": 19,
         "sampleSize": 32,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "MEI-42000",
@@ -30896,7 +30896,7 @@
         "grade": 2.78,
         "work": -31,
         "sampleSize": 37,
-        "letter": "I"
+        "letter": "A"
       }
     ]
   },
