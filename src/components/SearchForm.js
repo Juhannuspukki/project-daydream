@@ -5,13 +5,13 @@ import './SearchForm.css';
 class Settings extends Component {
   constructor(props) {
     super(props);
-    
-    this.toggle = this.toggle.bind(this);
-    
     this.state = {
       dropdownOpen: false,
       years: ["18-19", "17-18", "16-17", "15-16", "14-15"],
     };
+    
+    this.toggle = this.toggle.bind(this);
+    
   }
   
   toggle() {

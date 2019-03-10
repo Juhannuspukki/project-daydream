@@ -5,6 +5,7 @@ import { Container } from 'reactstrap';
 import SearchForm from './SearchForm';
 import Settings from './Settings';
 import initial from '../kaiku.json';
+import NavBar from './NavBar'
 
 class ListComponent extends Component {
   constructor(props) {
@@ -112,6 +113,7 @@ class ListComponent extends Component {
     
     return (
         <Container>
+          <NavBar pretitle="The incredible" title={"Course\u2011O\u2011Meter"}/>
           <SearchForm handleSearch={this.handleSearch}
                       loadYear={this.loadYear}
                       currentYear={this.state.settings.year}

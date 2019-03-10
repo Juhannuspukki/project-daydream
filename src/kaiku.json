@@ -214,7 +214,7 @@
         "grade": 4.39,
         "work": -2,
         "sampleSize": 50,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TTA-35010",
@@ -230,7 +230,7 @@
         "grade": 4.35,
         "work": 0,
         "sampleSize": 103,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TTA-35010",
@@ -238,7 +238,7 @@
         "grade": 4.45,
         "work": -4,
         "sampleSize": 72,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -462,7 +462,7 @@
         "grade": 4.08,
         "work": 16,
         "sampleSize": 26,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-24000",
@@ -564,7 +564,7 @@
         "grade": 3.98,
         "work": 6,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "KEB-64357",
@@ -872,7 +872,7 @@
         "grade": 4.07,
         "work": -4,
         "sampleSize": 41,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ASE-9306",
@@ -880,7 +880,7 @@
         "grade": 4.38,
         "work": 41,
         "sampleSize": 39,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -1040,7 +1040,7 @@
         "grade": 4.37,
         "work": 12,
         "sampleSize": 39,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-62150",
@@ -1061,7 +1061,7 @@
         "grade": 4.34,
         "work": 17,
         "sampleSize": 30,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -1147,7 +1147,7 @@
         "grade": 4.33,
         "work": 25,
         "sampleSize": 50,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "FYS-1241",
@@ -1179,7 +1179,7 @@
         "grade": 4.1,
         "work": 16,
         "sampleSize": 62,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -1192,7 +1192,7 @@
         "grade": 4.33,
         "work": 31,
         "sampleSize": 48,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-62050",
@@ -1200,7 +1200,7 @@
         "grade": 4.35,
         "work": 19,
         "sampleSize": 67,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-62050",
@@ -1208,7 +1208,7 @@
         "grade": 4.29,
         "work": 35,
         "sampleSize": 35,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-62050",
@@ -1224,7 +1224,7 @@
         "grade": 4.41,
         "work": 12,
         "sampleSize": 32,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -1265,7 +1265,7 @@
         "grade": 4.1,
         "work": 14,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -1278,7 +1278,7 @@
         "grade": 4.32,
         "work": 14,
         "sampleSize": 75,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TIE-20306",
@@ -1294,7 +1294,7 @@
         "grade": 3.49,
         "work": 5,
         "sampleSize": 35,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-20306",
@@ -1361,7 +1361,7 @@
         "grade": 4.3,
         "work": 2,
         "sampleSize": 49,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-43500",
@@ -1410,7 +1410,7 @@
         "grade": 4.3,
         "work": 1,
         "sampleSize": 23,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TIE-12206",
@@ -1425,7 +1425,7 @@
         "grade": 3.86,
         "work": 6,
         "sampleSize": 39,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -1450,7 +1450,7 @@
         "grade": 4.29,
         "work": -1,
         "sampleSize": 198,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MAT-02550",
@@ -1532,7 +1532,7 @@
         "grade": 4.27,
         "work": -6,
         "sampleSize": 21,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ELT-47206",
@@ -1566,7 +1566,7 @@
         "grade": 4.27,
         "work": 6,
         "sampleSize": 223,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MAT-01330",
@@ -1574,7 +1574,7 @@
         "grade": 4.31,
         "work": 1,
         "sampleSize": 227,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MAT-01330",
@@ -1582,7 +1582,7 @@
         "grade": 4.11,
         "work": 9,
         "sampleSize": 124,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MAT-01330",
@@ -1590,7 +1590,7 @@
         "grade": 4.4,
         "work": 5,
         "sampleSize": 137,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -1664,7 +1664,7 @@
         "grade": 4.26,
         "work": -1,
         "sampleSize": 31,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MOL-42076",
@@ -1672,7 +1672,7 @@
         "grade": 4.38,
         "work": 0,
         "sampleSize": 25,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -1707,7 +1707,7 @@
         "grade": 4.0,
         "work": 13,
         "sampleSize": 25,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "LTT-31006",
@@ -1766,7 +1766,7 @@
         "grade": 4.3,
         "work": 12,
         "sampleSize": 74,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TST-41006",
@@ -1834,7 +1834,7 @@
         "grade": 4.25,
         "work": 6,
         "sampleSize": 31,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-64200",
@@ -1854,7 +1854,7 @@
         "grade": 4.24,
         "work": -15,
         "sampleSize": 34,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "IHA-2240",
@@ -1862,7 +1862,7 @@
         "grade": 4.03,
         "work": -7,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "IHA-2240",
@@ -1899,7 +1899,7 @@
         "grade": 4.23,
         "work": 23,
         "sampleSize": 30,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ELT-41306",
@@ -1915,7 +1915,7 @@
         "grade": 4.07,
         "work": 13,
         "sampleSize": 25,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-41307",
@@ -1923,7 +1923,7 @@
         "grade": 4.15,
         "work": 10,
         "sampleSize": 45,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-41307",
@@ -1984,7 +1984,7 @@
         "grade": 4.23,
         "work": 26,
         "sampleSize": 53,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "FYS-1251",
@@ -1992,7 +1992,7 @@
         "grade": 4.04,
         "work": 35,
         "sampleSize": 74,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "FYS-1251",
@@ -2191,7 +2191,7 @@
         "grade": 4.2,
         "work": 17,
         "sampleSize": 65,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "RAK-32200",
@@ -2215,7 +2215,7 @@
         "grade": 3.84,
         "work": 18,
         "sampleSize": 48,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -2493,7 +2493,7 @@
         "grade": 4.44,
         "work": 3,
         "sampleSize": 81,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -2606,7 +2606,7 @@
         "grade": 4.3,
         "work": 57,
         "sampleSize": 23,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TIE-41406",
@@ -2614,7 +2614,7 @@
         "grade": 4.38,
         "work": 12,
         "sampleSize": 24,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -2642,7 +2642,7 @@
         "grade": 4.11,
         "work": 62,
         "sampleSize": 29,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-23100",
@@ -2771,7 +2771,7 @@
         "grade": 3.87,
         "work": -4,
         "sampleSize": 27,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -2841,7 +2841,7 @@
         "grade": 3.31,
         "work": 13,
         "sampleSize": 153,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MAT-01130",
@@ -2849,7 +2849,7 @@
         "grade": 3.21,
         "work": 13,
         "sampleSize": 178,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -2870,7 +2870,7 @@
         "grade": 4.31,
         "work": 19,
         "sampleSize": 33,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "RAK-33000",
@@ -2878,7 +2878,7 @@
         "grade": 3.82,
         "work": 39,
         "sampleSize": 32,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "RAK-33000",
@@ -3040,7 +3040,7 @@
         "grade": 3.76,
         "work": 5,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TLO-35030",
@@ -3069,7 +3069,7 @@
         "grade": 3.73,
         "work": 11,
         "sampleSize": 39,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-75010",
@@ -3077,7 +3077,7 @@
         "grade": 3.84,
         "work": 7,
         "sampleSize": 52,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-75010",
@@ -3093,7 +3093,7 @@
         "grade": 3.81,
         "work": 0,
         "sampleSize": 49,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -3135,7 +3135,7 @@
         "grade": 4.11,
         "work": 3,
         "sampleSize": 34,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-12100",
@@ -3171,7 +3171,7 @@
         "grade": 4.03,
         "work": 3,
         "sampleSize": 127,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "FYS-1091",
@@ -3220,7 +3220,7 @@
         "grade": 4.04,
         "work": 0,
         "sampleSize": 35,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-21000",
@@ -3379,7 +3379,7 @@
         "grade": 4.42,
         "work": -5,
         "sampleSize": 53,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ELT-51007",
@@ -3576,7 +3576,7 @@
         "grade": 3.48,
         "work": -13,
         "sampleSize": 50,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -3680,7 +3680,7 @@
         "grade": 4.37,
         "work": 6,
         "sampleSize": 163,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MAT-01230",
@@ -3716,7 +3716,7 @@
         "grade": 4.12,
         "work": 64,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-33100",
@@ -3724,7 +3724,7 @@
         "grade": 4.14,
         "work": 47,
         "sampleSize": 32,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-33100",
@@ -3759,7 +3759,7 @@
         "grade": 4.12,
         "work": 0,
         "sampleSize": 33,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-46006",
@@ -3898,7 +3898,7 @@
         "grade": 3.51,
         "work": 2,
         "sampleSize": 83,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MAT-60000",
@@ -3960,7 +3960,7 @@
         "grade": 3.74,
         "work": 6,
         "sampleSize": 58,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-33116",
@@ -3976,7 +3976,7 @@
         "grade": 4.14,
         "work": 3,
         "sampleSize": 31,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-33116",
@@ -4237,7 +4237,7 @@
         "grade": 3.98,
         "work": 2,
         "sampleSize": 142,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -4398,7 +4398,7 @@
         "grade": 4.05,
         "work": 1,
         "sampleSize": 51,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-35020",
@@ -4458,7 +4458,7 @@
         "grade": 3.83,
         "work": 60,
         "sampleSize": 31,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ASE-1258",
@@ -4520,7 +4520,7 @@
         "grade": 4.01,
         "work": 10,
         "sampleSize": 164,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MEI-02100",
@@ -4568,7 +4568,7 @@
         "grade": 4.01,
         "work": 4,
         "sampleSize": 87,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MOL-12286",
@@ -4584,7 +4584,7 @@
         "grade": 3.98,
         "work": -1,
         "sampleSize": 60,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MOL-12286",
@@ -4600,7 +4600,7 @@
         "grade": 3.52,
         "work": 14,
         "sampleSize": 37,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MOL-12286",
@@ -4628,7 +4628,7 @@
         "grade": 4.01,
         "work": 0,
         "sampleSize": 294,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-31010",
@@ -4660,7 +4660,7 @@
         "grade": 4.11,
         "work": -2,
         "sampleSize": 199,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -4887,7 +4887,7 @@
         "grade": 4.31,
         "work": 0,
         "sampleSize": 24,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "RAK-33600",
@@ -4907,7 +4907,7 @@
         "grade": 4.0,
         "work": -4,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "SGN-14006",
@@ -4981,7 +4981,7 @@
         "grade": 4.0,
         "work": 7,
         "sampleSize": 29,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-75036",
@@ -5026,7 +5026,7 @@
         "grade": 4.0,
         "work": 46,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-85010",
@@ -5066,7 +5066,7 @@
         "grade": 3.99,
         "work": 10,
         "sampleSize": 38,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-12000",
@@ -5090,7 +5090,7 @@
         "grade": 4.08,
         "work": 5,
         "sampleSize": 40,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-12000",
@@ -5110,7 +5110,7 @@
         "grade": 3.99,
         "work": 0,
         "sampleSize": 34,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-53006",
@@ -5118,7 +5118,7 @@
         "grade": 3.72,
         "work": 9,
         "sampleSize": 24,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ELT-53006",
@@ -5133,7 +5133,7 @@
         "grade": 4.37,
         "work": 7,
         "sampleSize": 35,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -5146,7 +5146,7 @@
         "grade": 3.99,
         "work": 0,
         "sampleSize": 25,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MEI-21056",
@@ -5167,7 +5167,7 @@
         "grade": 3.99,
         "work": 0,
         "sampleSize": 37,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TLO-35050",
@@ -5175,7 +5175,7 @@
         "grade": 4.03,
         "work": -4,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -5219,7 +5219,7 @@
         "grade": 3.97,
         "work": 4,
         "sampleSize": 207,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "FYS-1101",
@@ -5309,7 +5309,7 @@
         "grade": 3.97,
         "work": -28,
         "sampleSize": 32,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "RAK-43640",
@@ -5330,7 +5330,7 @@
         "grade": 3.96,
         "work": 8,
         "sampleSize": 24,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-33400",
@@ -5353,7 +5353,7 @@
         "grade": 3.87,
         "work": 28,
         "sampleSize": 28,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ARK-33400",
@@ -5374,7 +5374,7 @@
         "grade": 3.96,
         "work": 10,
         "sampleSize": 25,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-43106",
@@ -5439,7 +5439,7 @@
         "grade": 3.96,
         "work": 13,
         "sampleSize": 52,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MAT-01100",
@@ -5447,7 +5447,7 @@
         "grade": 3.77,
         "work": 16,
         "sampleSize": 49,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-01100",
@@ -5476,7 +5476,7 @@
         "grade": 3.96,
         "work": 2,
         "sampleSize": 52,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MAT-60150",
@@ -5571,7 +5571,7 @@
         "grade": 3.96,
         "work": 59,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "RAK-33300",
@@ -5649,7 +5649,7 @@
         "grade": 3.96,
         "work": 4,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "SGN-13000",
@@ -5657,7 +5657,7 @@
         "grade": 3.78,
         "work": 5,
         "sampleSize": 42,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "SGN-13000",
@@ -5737,7 +5737,7 @@
         "grade": 3.95,
         "work": 0,
         "sampleSize": 35,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-23030",
@@ -5753,7 +5753,7 @@
         "grade": 3.85,
         "work": -4,
         "sampleSize": 58,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-23030",
@@ -5761,7 +5761,7 @@
         "grade": 3.86,
         "work": 2,
         "sampleSize": 57,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -5808,7 +5808,7 @@
         "grade": 3.95,
         "work": 10,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TLO-25016",
@@ -5829,7 +5829,7 @@
         "grade": 3.94,
         "work": 5,
         "sampleSize": 43,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-22200",
@@ -5844,7 +5844,7 @@
         "grade": 4.38,
         "work": 8,
         "sampleSize": 26,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ARK-22200",
@@ -5852,7 +5852,7 @@
         "grade": 4.44,
         "work": 12,
         "sampleSize": 43,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ARK-22200",
@@ -5929,7 +5929,7 @@
         "grade": 3.93,
         "work": -4,
         "sampleSize": 72,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -5942,7 +5942,7 @@
         "grade": 3.93,
         "work": -11,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MOL-32266",
@@ -5962,7 +5962,7 @@
         "grade": 3.92,
         "work": 3,
         "sampleSize": 88,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-11000",
@@ -5986,7 +5986,7 @@
         "grade": 3.87,
         "work": 3,
         "sampleSize": 83,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -5999,7 +5999,7 @@
         "grade": 3.92,
         "work": 6,
         "sampleSize": 30,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-13090",
@@ -6065,7 +6065,7 @@
         "grade": 3.2,
         "work": -1,
         "sampleSize": 32,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -6094,7 +6094,7 @@
         "grade": 3.52,
         "work": -3,
         "sampleSize": 94,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-10100",
@@ -6123,7 +6123,7 @@
         "grade": 4.06,
         "work": 0,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "RAK-23340",
@@ -6151,7 +6151,7 @@
         "grade": 3.98,
         "work": 17,
         "sampleSize": 30,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "RAK-53000",
@@ -6468,7 +6468,7 @@
         "grade": 4.28,
         "work": 24,
         "sampleSize": 32,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TTA-15060",
@@ -6529,7 +6529,7 @@
         "grade": 4.14,
         "work": -6,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-12500",
@@ -6748,7 +6748,7 @@
         "grade": 3.51,
         "work": 4,
         "sampleSize": 42,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -6768,7 +6768,7 @@
         "grade": 4.3,
         "work": 11,
         "sampleSize": 26,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "KEB-23606",
@@ -6776,7 +6776,7 @@
         "grade": 4.08,
         "work": 9,
         "sampleSize": 23,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "KEB-23606",
@@ -6819,7 +6819,7 @@
         "grade": 3.84,
         "work": 5,
         "sampleSize": 537,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-02500",
@@ -6856,7 +6856,7 @@
         "grade": 3.99,
         "work": 39,
         "sampleSize": 154,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TIE-02200",
@@ -6864,7 +6864,7 @@
         "grade": 3.8,
         "work": 37,
         "sampleSize": 224,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-02200",
@@ -7224,7 +7224,7 @@
         "grade": 4.0,
         "work": -5,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -7390,7 +7390,7 @@
         "grade": 3.87,
         "work": 0,
         "sampleSize": 30,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "KEB-13000",
@@ -7721,7 +7721,7 @@
         "grade": 3.6,
         "work": 14,
         "sampleSize": 22,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-23060",
@@ -7885,7 +7885,7 @@
         "grade": 4.06,
         "work": -2,
         "sampleSize": 106,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-32010",
@@ -7893,7 +7893,7 @@
         "grade": 4.12,
         "work": -2,
         "sampleSize": 103,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-32010",
@@ -8020,7 +8020,7 @@
         "grade": 3.76,
         "work": -10,
         "sampleSize": 33,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -8532,7 +8532,7 @@
         "grade": 3.84,
         "work": 8,
         "sampleSize": 28,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MOL-32227",
@@ -8661,7 +8661,7 @@
         "grade": 3.56,
         "work": 31,
         "sampleSize": 31,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -8723,7 +8723,7 @@
         "grade": 4.03,
         "work": -4,
         "sampleSize": 34,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-33010",
@@ -9109,7 +9109,7 @@
         "grade": 4.33,
         "work": 5,
         "sampleSize": 54,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "BMT-61226",
@@ -9223,7 +9223,7 @@
         "grade": 4.0,
         "work": 4,
         "sampleSize": 24,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TLO-22020",
@@ -9476,7 +9476,7 @@
         "grade": 3.74,
         "work": 0,
         "sampleSize": 159,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-02650",
@@ -9546,7 +9546,7 @@
         "grade": 3.74,
         "work": 20,
         "sampleSize": 30,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-50100",
@@ -9562,7 +9562,7 @@
         "grade": 3.84,
         "work": 37,
         "sampleSize": 38,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-50100",
@@ -9591,7 +9591,7 @@
         "grade": 3.74,
         "work": 44,
         "sampleSize": 36,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-50506",
@@ -9640,7 +9640,7 @@
         "grade": 3.73,
         "work": 2,
         "sampleSize": 33,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -9653,7 +9653,7 @@
         "grade": 3.73,
         "work": 25,
         "sampleSize": 26,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ELT-21150",
@@ -9688,7 +9688,7 @@
         "grade": 3.73,
         "work": 9,
         "sampleSize": 44,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-10100",
@@ -9723,7 +9723,7 @@
         "grade": 3.73,
         "work": 10,
         "sampleSize": 40,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -9755,7 +9755,7 @@
         "grade": 3.72,
         "work": -10,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "RAK-23590",
@@ -9790,7 +9790,7 @@
         "grade": 3.72,
         "work": 32,
         "sampleSize": 83,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-20100",
@@ -9827,7 +9827,7 @@
         "grade": 3.72,
         "work": 6,
         "sampleSize": 53,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TLO-35236",
@@ -9863,7 +9863,7 @@
         "grade": 3.72,
         "work": 14,
         "sampleSize": 50,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TLO-41006",
@@ -9884,7 +9884,7 @@
         "grade": 3.72,
         "work": 9,
         "sampleSize": 24,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-65030",
@@ -9892,7 +9892,7 @@
         "grade": 3.17,
         "work": 38,
         "sampleSize": 23,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TTA-65030",
@@ -9920,7 +9920,7 @@
         "grade": 3.71,
         "work": 3,
         "sampleSize": 64,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-11100",
@@ -9936,7 +9936,7 @@
         "grade": 3.85,
         "work": 7,
         "sampleSize": 63,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-11100",
@@ -9969,7 +9969,7 @@
         "grade": 3.71,
         "work": -2,
         "sampleSize": 70,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -9982,7 +9982,7 @@
         "grade": 3.71,
         "work": 17,
         "sampleSize": 73,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-41106",
@@ -10041,7 +10041,7 @@
         "grade": 4.43,
         "work": -9,
         "sampleSize": 21,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ARK-34010",
@@ -10049,7 +10049,7 @@
         "grade": 4.35,
         "work": 5,
         "sampleSize": 41,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -10096,7 +10096,7 @@
         "grade": 3.7,
         "work": 29,
         "sampleSize": 42,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ELT-61236",
@@ -10159,7 +10159,7 @@
         "grade": 3.74,
         "work": 0,
         "sampleSize": 44,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-60100",
@@ -10182,7 +10182,7 @@
         "grade": 3.54,
         "work": 12,
         "sampleSize": 36,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -10235,7 +10235,7 @@
         "grade": 3.7,
         "work": -8,
         "sampleSize": 110,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-52020",
@@ -10251,7 +10251,7 @@
         "grade": 4.1,
         "work": -5,
         "sampleSize": 155,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-52020",
@@ -10259,7 +10259,7 @@
         "grade": 4.12,
         "work": -5,
         "sampleSize": 202,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TTA-52020",
@@ -10280,7 +10280,7 @@
         "grade": 3.69,
         "work": 12,
         "sampleSize": 27,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ARK-22000",
@@ -10304,7 +10304,7 @@
         "grade": 3.58,
         "work": 14,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "ARK-22000",
@@ -10364,7 +10364,7 @@
         "grade": 3.69,
         "work": 0,
         "sampleSize": 53,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-53106",
@@ -10393,7 +10393,7 @@
         "grade": 3.69,
         "work": 0,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -10406,7 +10406,7 @@
         "grade": 3.69,
         "work": 85,
         "sampleSize": 26,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-71800",
@@ -10501,7 +10501,7 @@
         "grade": 3.69,
         "work": -3,
         "sampleSize": 38,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TLO-22416",
@@ -10509,7 +10509,7 @@
         "grade": 3.49,
         "work": 23,
         "sampleSize": 29,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -10589,7 +10589,7 @@
         "grade": 3.68,
         "work": 0,
         "sampleSize": 24,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-12100",
@@ -10641,7 +10641,7 @@
         "grade": 3.68,
         "work": 1,
         "sampleSize": 42,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -10827,7 +10827,7 @@
         "grade": 3.85,
         "work": -2,
         "sampleSize": 160,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -11223,7 +11223,7 @@
         "grade": 3.81,
         "work": 5,
         "sampleSize": 115,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -11252,7 +11252,7 @@
         "grade": 3.86,
         "work": 6,
         "sampleSize": 145,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-02400",
@@ -11268,7 +11268,7 @@
         "grade": 3.53,
         "work": 7,
         "sampleSize": 100,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -11361,7 +11361,7 @@
         "grade": 3.87,
         "work": -4,
         "sampleSize": 26,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -11438,7 +11438,7 @@
         "grade": 3.5,
         "work": 13,
         "sampleSize": 36,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TTA-15090",
@@ -11446,7 +11446,7 @@
         "grade": 3.32,
         "work": 27,
         "sampleSize": 75,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -11503,7 +11503,7 @@
         "grade": 4.03,
         "work": 9,
         "sampleSize": 26,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-53307",
@@ -11518,7 +11518,7 @@
         "grade": 4.08,
         "work": -10,
         "sampleSize": 28,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -11581,7 +11581,7 @@
         "grade": 3.85,
         "work": 7,
         "sampleSize": 272,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "FYS-1130",
@@ -11710,7 +11710,7 @@
         "grade": 3.56,
         "work": -3,
         "sampleSize": 47,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -11743,7 +11743,7 @@
         "grade": 3.47,
         "work": -1,
         "sampleSize": 33,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "ARK-23200",
@@ -11759,7 +11759,7 @@
         "grade": 3.31,
         "work": 8,
         "sampleSize": 32,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "ARK-23200",
@@ -11767,7 +11767,7 @@
         "grade": 3.54,
         "work": 3,
         "sampleSize": 26,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -11858,7 +11858,7 @@
         "grade": 3.47,
         "work": 8,
         "sampleSize": 37,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "FYS-1270",
@@ -12050,7 +12050,7 @@
         "grade": 3.73,
         "work": -3,
         "sampleSize": 57,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -12212,7 +12212,7 @@
         "grade": 3.49,
         "work": 5,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -12278,7 +12278,7 @@
         "grade": 3.76,
         "work": 2,
         "sampleSize": 138,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-01410",
@@ -12286,7 +12286,7 @@
         "grade": 3.76,
         "work": 5,
         "sampleSize": 138,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MAT-01410",
@@ -12414,7 +12414,7 @@
         "grade": 3.77,
         "work": -7,
         "sampleSize": 31,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -12435,7 +12435,7 @@
         "grade": 3.73,
         "work": 1,
         "sampleSize": 43,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TLO-32021",
@@ -12617,7 +12617,7 @@
         "grade": 3.76,
         "work": 6,
         "sampleSize": 335,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "FYS-1080",
@@ -12625,7 +12625,7 @@
         "grade": 3.83,
         "work": 12,
         "sampleSize": 329,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "FYS-1080",
@@ -12718,7 +12718,7 @@
         "grade": 4.11,
         "work": 19,
         "sampleSize": 27,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -12789,7 +12789,7 @@
         "grade": 3.48,
         "work": 11,
         "sampleSize": 36,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MOL-11240",
@@ -12797,7 +12797,7 @@
         "grade": 3.49,
         "work": 4,
         "sampleSize": 29,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MOL-11240",
@@ -12878,7 +12878,7 @@
         "grade": 4.05,
         "work": -10,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-42000",
@@ -12907,7 +12907,7 @@
         "grade": 3.48,
         "work": 17,
         "sampleSize": 24,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-34106",
@@ -13328,7 +13328,7 @@
         "grade": 3.85,
         "work": 0,
         "sampleSize": 31,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -13526,7 +13526,7 @@
         "grade": 2.87,
         "work": 15,
         "sampleSize": 51,
-        "letter": "A"
+        "letter": "I"
       },
       {
         "code": "KEB-21100",
@@ -13762,7 +13762,7 @@
         "grade": 3.72,
         "work": 0,
         "sampleSize": 26,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-23020",
@@ -13777,7 +13777,7 @@
         "grade": 4.11,
         "work": 0,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "DEE-23020",
@@ -13879,7 +13879,7 @@
         "grade": 3.57,
         "work": -3,
         "sampleSize": 140,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -13980,7 +13980,7 @@
         "grade": 4.39,
         "work": -2,
         "sampleSize": 69,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ELT-40001",
@@ -13988,7 +13988,7 @@
         "grade": 4.12,
         "work": -7,
         "sampleSize": 78,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ELT-40002",
@@ -14024,7 +14024,7 @@
         "grade": 4.33,
         "work": 16,
         "sampleSize": 24,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ELT-45006",
@@ -14106,7 +14106,7 @@
         "grade": 3.84,
         "work": 2,
         "sampleSize": 136,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -14301,7 +14301,7 @@
         "grade": 3.76,
         "work": 0,
         "sampleSize": 21,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-12030",
@@ -14338,7 +14338,7 @@
         "grade": 3.85,
         "work": 4,
         "sampleSize": 165,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-72030",
@@ -14375,7 +14375,7 @@
         "grade": 3.52,
         "work": 0,
         "sampleSize": 25,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-23040",
@@ -14437,7 +14437,7 @@
         "grade": 3.48,
         "work": -10,
         "sampleSize": 21,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -14478,7 +14478,7 @@
         "grade": 3.73,
         "work": 0,
         "sampleSize": 157,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "KEB-61420",
@@ -14604,7 +14604,7 @@
         "grade": 4.42,
         "work": 3,
         "sampleSize": 77,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -14720,7 +14720,7 @@
         "grade": 3.52,
         "work": 18,
         "sampleSize": 63,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-41530",
@@ -14741,7 +14741,7 @@
         "grade": 3.52,
         "work": -6,
         "sampleSize": 115,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TLO-11040",
@@ -14762,7 +14762,7 @@
         "grade": 3.52,
         "work": -13,
         "sampleSize": 67,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TTA-15010",
@@ -14806,7 +14806,7 @@
         "grade": 3.52,
         "work": 74,
         "sampleSize": 21,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "YHTTAY-21041",
@@ -14827,7 +14827,7 @@
         "grade": 3.51,
         "work": 2,
         "sampleSize": 44,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-23116",
@@ -14835,7 +14835,7 @@
         "grade": 3.77,
         "work": -2,
         "sampleSize": 51,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-23116",
@@ -14843,7 +14843,7 @@
         "grade": 4.09,
         "work": 9,
         "sampleSize": 35,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -14856,7 +14856,7 @@
         "grade": 3.51,
         "work": 6,
         "sampleSize": 29,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "ELT-45106",
@@ -14864,7 +14864,7 @@
         "grade": 3.74,
         "work": 0,
         "sampleSize": 29,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ELT-45106",
@@ -14892,7 +14892,7 @@
         "grade": 3.51,
         "work": -1,
         "sampleSize": 70,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-21300",
@@ -14913,7 +14913,7 @@
         "grade": 3.51,
         "work": 17,
         "sampleSize": 70,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-23406",
@@ -14934,7 +14934,7 @@
         "grade": 3.51,
         "work": 23,
         "sampleSize": 73,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-23500",
@@ -14950,7 +14950,7 @@
         "grade": 3.52,
         "work": 12,
         "sampleSize": 111,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-23500",
@@ -15037,7 +15037,7 @@
         "grade": 3.51,
         "work": 22,
         "sampleSize": 30,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TLO-35200",
@@ -15074,7 +15074,7 @@
         "grade": 3.51,
         "work": 24,
         "sampleSize": 35,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TLO-35250",
@@ -15282,7 +15282,7 @@
         "grade": 3.5,
         "work": -4,
         "sampleSize": 184,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MEI-01100",
@@ -15298,7 +15298,7 @@
         "grade": 3.26,
         "work": 3,
         "sampleSize": 138,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MEI-01100",
@@ -15403,7 +15403,7 @@
         "grade": 3.49,
         "work": 5,
         "sampleSize": 42,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-33106",
@@ -15474,7 +15474,7 @@
         "grade": 3.49,
         "work": 38,
         "sampleSize": 188,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "FYS-1010",
@@ -15511,7 +15511,7 @@
         "grade": 3.48,
         "work": -29,
         "sampleSize": 111,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-32000",
@@ -15519,7 +15519,7 @@
         "grade": 3.73,
         "work": -14,
         "sampleSize": 39,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "DEE-32000",
@@ -15581,7 +15581,7 @@
         "grade": 3.48,
         "work": 3,
         "sampleSize": 27,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "FYS-1040",
@@ -15623,7 +15623,7 @@
         "grade": 3.48,
         "work": 0,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-52300",
@@ -15685,7 +15685,7 @@
         "grade": 4.1,
         "work": -33,
         "sampleSize": 28,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -15720,7 +15720,7 @@
         "grade": 4.09,
         "work": 9,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "BMT-63306",
@@ -15741,7 +15741,7 @@
         "grade": 3.47,
         "work": -9,
         "sampleSize": 26,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "KEB-61350",
@@ -15828,7 +15828,7 @@
         "grade": 3.47,
         "work": 17,
         "sampleSize": 26,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MEI-24026",
@@ -15836,7 +15836,7 @@
         "grade": 3.47,
         "work": 32,
         "sampleSize": 41,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -15877,7 +15877,7 @@
         "grade": 3.99,
         "work": 44,
         "sampleSize": 48,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TIE-40206",
@@ -16097,7 +16097,7 @@
         "grade": 3.56,
         "work": 32,
         "sampleSize": 289,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -16171,7 +16171,7 @@
         "grade": 3.57,
         "work": 45,
         "sampleSize": 111,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TTA-62010",
@@ -16232,7 +16232,7 @@
         "grade": 3.48,
         "work": 4,
         "sampleSize": 64,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MAT-02700",
@@ -16297,7 +16297,7 @@
         "grade": 4.03,
         "work": 14,
         "sampleSize": 41,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MOL-11250",
@@ -16305,7 +16305,7 @@
         "grade": 3.86,
         "work": 20,
         "sampleSize": 43,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MOL-11250",
@@ -16530,7 +16530,7 @@
         "grade": 3.85,
         "work": 4,
         "sampleSize": 26,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ARK-12300",
@@ -16751,7 +16751,7 @@
         "grade": 3.48,
         "work": 0,
         "sampleSize": 36,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-23010",
@@ -16767,7 +16767,7 @@
         "grade": 3.56,
         "work": 0,
         "sampleSize": 27,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "DEE-23010",
@@ -16992,7 +16992,7 @@
         "grade": 3.56,
         "work": -1,
         "sampleSize": 73,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-21201",
@@ -17066,7 +17066,7 @@
         "grade": 3.83,
         "work": 3,
         "sampleSize": 33,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -17143,7 +17143,7 @@
         "grade": 3.89,
         "work": 5,
         "sampleSize": 21,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -17278,7 +17278,7 @@
         "grade": 3.73,
         "work": -15,
         "sampleSize": 34,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -17577,7 +17577,7 @@
         "grade": 3.56,
         "work": -1,
         "sampleSize": 59,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-32300",
@@ -17585,7 +17585,7 @@
         "grade": 3.86,
         "work": 7,
         "sampleSize": 116,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -17687,7 +17687,7 @@
         "grade": 3.57,
         "work": -5,
         "sampleSize": 123,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -18055,7 +18055,7 @@
         "grade": 2.88,
         "work": -5,
         "sampleSize": 27,
-        "letter": "A"
+        "letter": "I"
       },
       {
         "code": "RAK-22320",
@@ -18162,7 +18162,7 @@
         "grade": 3.6,
         "work": -59,
         "sampleSize": 28,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "ELT-23000",
@@ -18211,7 +18211,7 @@
         "grade": 3.47,
         "work": 25,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -18261,7 +18261,7 @@
         "grade": 3.25,
         "work": -14,
         "sampleSize": 66,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "SGN-43006",
@@ -18398,7 +18398,7 @@
         "grade": 3.85,
         "work": -16,
         "sampleSize": 38,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "IHA-1756",
@@ -18541,7 +18541,7 @@
         "grade": 3.53,
         "work": 3,
         "sampleSize": 125,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -18607,7 +18607,7 @@
         "grade": 4.06,
         "work": 34,
         "sampleSize": 24,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "BMT-74106",
@@ -18697,7 +18697,7 @@
         "grade": 2.78,
         "work": -8,
         "sampleSize": 23,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "TIE-23600",
@@ -18836,7 +18836,7 @@
         "grade": 3.55,
         "work": 34,
         "sampleSize": 54,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -18904,7 +18904,7 @@
         "grade": 4.08,
         "work": -1,
         "sampleSize": 36,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "RAK-33570",
@@ -18968,7 +18968,7 @@
         "grade": 3.84,
         "work": 3,
         "sampleSize": 44,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -19061,7 +19061,7 @@
         "grade": 4.05,
         "work": 9,
         "sampleSize": 33,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "ARK-11000",
@@ -19069,7 +19069,7 @@
         "grade": 3.79,
         "work": -5,
         "sampleSize": 46,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ARK-11000",
@@ -19085,7 +19085,7 @@
         "grade": 3.84,
         "work": -4,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -19192,7 +19192,7 @@
         "grade": 3.15,
         "work": 25,
         "sampleSize": 165,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MOL-11200",
@@ -19229,7 +19229,7 @@
         "grade": 3.16,
         "work": 8,
         "sampleSize": 154,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TIE-22100",
@@ -19245,7 +19245,7 @@
         "grade": 3.32,
         "work": 17,
         "sampleSize": 120,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -19290,7 +19290,7 @@
         "grade": 3.89,
         "work": 14,
         "sampleSize": 35,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -19366,7 +19366,7 @@
         "grade": 2.74,
         "work": 39,
         "sampleSize": 105,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "ASE-1120",
@@ -19556,7 +19556,7 @@
         "grade": 3.57,
         "work": 0,
         "sampleSize": 522,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "KEB-61100",
@@ -19601,7 +19601,7 @@
         "grade": 3.55,
         "work": -14,
         "sampleSize": 54,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "LTT-12301",
@@ -19657,7 +19657,7 @@
         "grade": 3.75,
         "work": 34,
         "sampleSize": 43,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-41206",
@@ -19702,7 +19702,7 @@
         "grade": 3.24,
         "work": -3,
         "sampleSize": 47,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -19742,7 +19742,7 @@
         "grade": 3.23,
         "work": 43,
         "sampleSize": 49,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TIE-30200",
@@ -19796,7 +19796,7 @@
         "grade": 3.22,
         "work": -19,
         "sampleSize": 110,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "DEE-11010",
@@ -19867,7 +19867,7 @@
         "grade": 3.22,
         "work": 5,
         "sampleSize": 43,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MOL-12216",
@@ -19888,7 +19888,7 @@
         "grade": 3.21,
         "work": 11,
         "sampleSize": 349,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MAT-00001",
@@ -19896,7 +19896,7 @@
         "grade": 3.48,
         "work": 8,
         "sampleSize": 322,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -19909,7 +19909,7 @@
         "grade": 3.21,
         "work": -3,
         "sampleSize": 70,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -19922,7 +19922,7 @@
         "grade": 3.2,
         "work": 19,
         "sampleSize": 41,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "FYS-1260",
@@ -19998,7 +19998,7 @@
         "grade": 3.19,
         "work": 10,
         "sampleSize": 52,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -20011,7 +20011,7 @@
         "grade": 3.19,
         "work": 34,
         "sampleSize": 42,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TTA-55016",
@@ -20032,7 +20032,7 @@
         "grade": 3.18,
         "work": 7,
         "sampleSize": 28,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -20045,7 +20045,7 @@
         "grade": 3.18,
         "work": 35,
         "sampleSize": 76,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "RAK-21000",
@@ -20061,7 +20061,7 @@
         "grade": 3.83,
         "work": 14,
         "sampleSize": 72,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "RAK-21000",
@@ -20230,7 +20230,7 @@
         "grade": 2.77,
         "work": 79,
         "sampleSize": 52,
-        "letter": "A"
+        "letter": "I"
       }
     ]
   },
@@ -20302,7 +20302,7 @@
         "grade": 3.83,
         "work": 3,
         "sampleSize": 27,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -20601,7 +20601,7 @@
         "grade": 3.81,
         "work": 47,
         "sampleSize": 28,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "FYS-1320",
@@ -20813,7 +20813,7 @@
         "grade": 3.53,
         "work": 3,
         "sampleSize": 120,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "KEB-20000",
@@ -20891,7 +20891,7 @@
         "grade": 3.49,
         "work": -3,
         "sampleSize": 38,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "BMT-61216",
@@ -21775,7 +21775,7 @@
         "grade": 3.3,
         "work": -15,
         "sampleSize": 26,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "DEE-24020",
@@ -21844,7 +21844,7 @@
         "grade": 3.15,
         "work": 13,
         "sampleSize": 89,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "RAK-51500",
@@ -21852,7 +21852,7 @@
         "grade": 3.52,
         "work": 6,
         "sampleSize": 80,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-51500",
@@ -21860,7 +21860,7 @@
         "grade": 3.58,
         "work": 8,
         "sampleSize": 95,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -21889,7 +21889,7 @@
         "grade": 3.24,
         "work": -14,
         "sampleSize": 27,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -21922,7 +21922,7 @@
         "grade": 2.87,
         "work": 6,
         "sampleSize": 33,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "TLO-35246",
@@ -21967,7 +21967,7 @@
         "grade": 2.84,
         "work": -24,
         "sampleSize": 23,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "KEB-21200",
@@ -22002,7 +22002,7 @@
         "grade": 2.84,
         "work": 9,
         "sampleSize": 80,
-        "letter": "I"
+        "letter": "A"
       },
       {
         "code": "KEB-62100",
@@ -22092,7 +22092,7 @@
         "grade": 3.83,
         "work": 3,
         "sampleSize": 100,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "ASE-1130",
@@ -22126,7 +22126,7 @@
         "grade": 4.4,
         "work": 10,
         "sampleSize": 21,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "MAT-60300",
@@ -22178,7 +22178,7 @@
         "grade": 4.1,
         "work": -5,
         "sampleSize": 171,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -22386,7 +22386,7 @@
         "grade": 3.85,
         "work": 4,
         "sampleSize": 67,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -23307,7 +23307,7 @@
         "grade": 4.33,
         "work": 10,
         "sampleSize": 21,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ARK-54208",
@@ -23603,7 +23603,7 @@
         "grade": 4.36,
         "work": -16,
         "sampleSize": 22,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "ARK-45207",
@@ -23618,7 +23618,7 @@
         "grade": 4.09,
         "work": -5,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -23631,7 +23631,7 @@
         "grade": 4.33,
         "work": 25,
         "sampleSize": 30,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "TLO-32601",
@@ -23715,7 +23715,7 @@
         "grade": 4.3,
         "work": 11,
         "sampleSize": 30,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "RAK-33310",
@@ -23735,7 +23735,7 @@
         "grade": 4.3,
         "work": 25,
         "sampleSize": 23,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -23819,7 +23819,7 @@
         "grade": 4.08,
         "work": 0,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MEI-56606",
@@ -23883,7 +23883,7 @@
         "grade": 3.3,
         "work": -8,
         "sampleSize": 37,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MEI-62006",
@@ -23962,7 +23962,7 @@
         "grade": 4.06,
         "work": 18,
         "sampleSize": 23,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -24135,7 +24135,7 @@
         "grade": 4.15,
         "work": 0,
         "sampleSize": 49,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -24177,7 +24177,7 @@
         "grade": 3.85,
         "work": 11,
         "sampleSize": 28,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -24403,7 +24403,7 @@
         "grade": 3.23,
         "work": 33,
         "sampleSize": 32,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "TLO-35060",
@@ -24411,7 +24411,7 @@
         "grade": 3.84,
         "work": 5,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -24533,7 +24533,7 @@
         "grade": 4.0,
         "work": -13,
         "sampleSize": 46,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MEI-46200",
@@ -24541,7 +24541,7 @@
         "grade": 3.85,
         "work": -13,
         "sampleSize": 39,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MEI-46200",
@@ -24549,7 +24549,7 @@
         "grade": 4.08,
         "work": -4,
         "sampleSize": 39,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -24576,7 +24576,7 @@
         "grade": 3.58,
         "work": 0,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MEI-52000",
@@ -24678,7 +24678,7 @@
         "grade": 3.98,
         "work": 12,
         "sampleSize": 56,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MEI-51400",
@@ -24707,7 +24707,7 @@
         "grade": 3.98,
         "work": 32,
         "sampleSize": 35,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "SGN-84007",
@@ -24763,7 +24763,7 @@
         "grade": 4.13,
         "work": 33,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -25068,7 +25068,7 @@
         "grade": 3.78,
         "work": 15,
         "sampleSize": 27,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-45036",
@@ -25097,7 +25097,7 @@
         "grade": 3.76,
         "work": -3,
         "sampleSize": 32,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -25134,7 +25134,7 @@
         "grade": 3.75,
         "work": 23,
         "sampleSize": 22,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TTA-75056",
@@ -25244,7 +25244,7 @@
         "grade": 3.86,
         "work": 5,
         "sampleSize": 43,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -25320,7 +25320,7 @@
         "grade": 3.5,
         "work": -2,
         "sampleSize": 115,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MEI-50400",
@@ -25482,7 +25482,7 @@
         "grade": 3.87,
         "work": 9,
         "sampleSize": 35,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -25835,7 +25835,7 @@
         "grade": 3.57,
         "work": 10,
         "sampleSize": 26,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -25856,7 +25856,7 @@
         "grade": 4.04,
         "work": 32,
         "sampleSize": 23,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "IHA-2706",
@@ -26250,7 +26250,7 @@
         "grade": 3.24,
         "work": 35,
         "sampleSize": 70,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MEI-51006",
@@ -26412,7 +26412,7 @@
         "grade": 3.54,
         "work": -5,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MOL-81016",
@@ -26669,7 +26669,7 @@
         "grade": 3.56,
         "work": 3,
         "sampleSize": 145,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "KEB-40100",
@@ -26698,7 +26698,7 @@
         "grade": 3.53,
         "work": 8,
         "sampleSize": 54,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-22307",
@@ -26981,7 +26981,7 @@
         "grade": 3.84,
         "work": 0,
         "sampleSize": 24,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -27152,7 +27152,7 @@
         "grade": 2.99,
         "work": 12,
         "sampleSize": 46,
-        "letter": "I"
+        "letter": "A"
       }
     ]
   },
@@ -27366,7 +27366,7 @@
         "grade": 4.42,
         "work": 7,
         "sampleSize": 29,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "RAK-23636",
@@ -27393,7 +27393,7 @@
         "grade": 4.4,
         "work": 9,
         "sampleSize": 21,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "FYS-1216",
@@ -27459,7 +27459,7 @@
         "grade": 4.43,
         "work": 2,
         "sampleSize": 52,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -27518,7 +27518,7 @@
         "grade": 3.84,
         "work": 5,
         "sampleSize": 25,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -27596,7 +27596,7 @@
         "grade": 4.14,
         "work": 35,
         "sampleSize": 23,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -27806,7 +27806,7 @@
         "grade": 4.09,
         "work": 0,
         "sampleSize": 21,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -27900,7 +27900,7 @@
         "grade": 4.06,
         "work": 2,
         "sampleSize": 39,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "TLO-35306",
@@ -28080,7 +28080,7 @@
         "grade": 3.58,
         "work": 6,
         "sampleSize": 51,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -28162,7 +28162,7 @@
         "grade": 3.86,
         "work": 19,
         "sampleSize": 27,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "MOL-42166",
@@ -28170,7 +28170,7 @@
         "grade": 4.09,
         "work": 9,
         "sampleSize": 22,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "MOL-42166",
@@ -28243,7 +28243,7 @@
         "grade": 3.83,
         "work": 1,
         "sampleSize": 39,
-        "letter": "C"
+        "letter": "M"
       },
       {
         "code": "TIE-51257",
@@ -28259,7 +28259,7 @@
         "grade": 4.11,
         "work": -3,
         "sampleSize": 29,
-        "letter": "M"
+        "letter": "E"
       }
     ]
   },
@@ -28279,7 +28279,7 @@
         "grade": 3.84,
         "work": 17,
         "sampleSize": 25,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -28458,7 +28458,7 @@
         "grade": 3.59,
         "work": -33,
         "sampleSize": 23,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -28663,7 +28663,7 @@
         "grade": 3.53,
         "work": -5,
         "sampleSize": 21,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MOL-12210",
@@ -28684,7 +28684,7 @@
         "grade": 3.53,
         "work": -4,
         "sampleSize": 68,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "TIE-21106",
@@ -28705,7 +28705,7 @@
         "grade": 3.52,
         "work": 5,
         "sampleSize": 24,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "ASE-2916",
@@ -28713,7 +28713,7 @@
         "grade": 3.31,
         "work": 13,
         "sampleSize": 45,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -28745,7 +28745,7 @@
         "grade": 3.51,
         "work": 35,
         "sampleSize": 98,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MAT-04600",
@@ -28753,7 +28753,7 @@
         "grade": 3.55,
         "work": 31,
         "sampleSize": 123,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "MAT-04600",
@@ -28774,7 +28774,7 @@
         "grade": 3.51,
         "work": -3,
         "sampleSize": 27,
-        "letter": "B"
+        "letter": "C"
       },
       {
         "code": "RAK-53027",
@@ -28903,7 +28903,7 @@
         "grade": 3.26,
         "work": 10,
         "sampleSize": 31,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "MOL-11330",
@@ -28924,7 +28924,7 @@
         "grade": 3.26,
         "work": 38,
         "sampleSize": 27,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "RAK-32110",
@@ -28980,7 +28980,7 @@
         "grade": 3.24,
         "work": 4,
         "sampleSize": 48,
-        "letter": "A"
+        "letter": "B"
       },
       {
         "code": "RAK-52401",
@@ -29224,7 +29224,7 @@
         "grade": 3.57,
         "work": 0,
         "sampleSize": 22,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -29298,7 +29298,7 @@
         "grade": 3.31,
         "work": -5,
         "sampleSize": 27,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },
@@ -29476,7 +29476,7 @@
         "grade": 4.42,
         "work": 10,
         "sampleSize": 60,
-        "letter": "E"
+        "letter": "L"
       },
       {
         "code": "SGN-11007",
@@ -29669,7 +29669,7 @@
         "grade": 4.12,
         "work": 3,
         "sampleSize": 154,
-        "letter": "M"
+        "letter": "E"
       },
       {
         "code": "SGN-13006",
@@ -29677,7 +29677,7 @@
         "grade": 4.4,
         "work": 7,
         "sampleSize": 100,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -29818,7 +29818,7 @@
         "grade": 3.87,
         "work": 42,
         "sampleSize": 84,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -29831,7 +29831,7 @@
         "grade": 3.85,
         "work": 24,
         "sampleSize": 41,
-        "letter": "C"
+        "letter": "M"
       }
     ]
   },
@@ -30031,7 +30031,7 @@
         "grade": 3.55,
         "work": 46,
         "sampleSize": 27,
-        "letter": "B"
+        "letter": "C"
       }
     ]
   },
@@ -30275,7 +30275,7 @@
         "grade": 4.44,
         "work": 5,
         "sampleSize": 57,
-        "letter": "E"
+        "letter": "L"
       }
     ]
   },
@@ -30784,7 +30784,7 @@
         "grade": 3.2,
         "work": -17,
         "sampleSize": 84,
-        "letter": "A"
+        "letter": "B"
       }
     ]
   },

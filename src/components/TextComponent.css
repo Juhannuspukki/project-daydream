@@ -1,3 +1,19 @@
 .Tin-Can {
   color: #ffffff;
 }
+
+.Text-Title {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.Aamulehti {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.Aamulehti:hover {
+  color: #355f8c;
+}

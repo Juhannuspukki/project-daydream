@@ -1,12 +1,17 @@
-.Footer-Logo {
-  font-family: 'Righteous', cursive;
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 3rem 0 0 0;
+.Footer-Row {
+  margin-top: 3rem;
 }
 
-.Footer-Text {
-  font-size: 0.75rem;
+.Footer-Logo {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 0 0 3rem 0;
+}
+
+.Footer-Logo:hover {
+  color: #355f8c;
+  text-decoration: none;
 }

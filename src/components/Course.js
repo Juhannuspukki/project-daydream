@@ -6,6 +6,7 @@ import _ from 'underscore';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer, ReferenceLine } from 'recharts';
 import { Row, Col } from 'reactstrap';
 import CustomizedXAxisTick from './CustomTick';
+import NavBar from "./NavBar";
 
 class Course extends Component {
   constructor(props) {
@@ -55,6 +56,7 @@ class Course extends Component {
     
     return (
       <Container>
+        <NavBar pretitle="The incredible" title={"Course\u2011O\u2011Meter"}/>
         <h2 className="Course-Name">{this.state.data.name}</h2>
         <h3 className="Course-Codes">{codes[0]}{(codes.length > 1) && (", previously known as ")}{(codes.length > 1) && (codes.slice(1).join(", "))}</h3>
         <h3 className="Course-Grades">{letters.join(", ")}

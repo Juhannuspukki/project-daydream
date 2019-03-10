@@ -1,0 +1,35 @@
+label {
+  color: #fff
+}
+
+.Title {
+  font-family: 'Righteous', cursive;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.Form {
+  margin-bottom: 2.5rem;
+}
+
+.Form-Group {
+  margin-bottom: 1.5rem;
+}
+
+.Switch {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4.5rem;
+}
+
+.Hidden {
+  display: none;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: #355f8c;
+  background-color: #355f8c;
+}

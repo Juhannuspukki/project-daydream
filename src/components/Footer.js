@@ -1,11 +1,21 @@
 import React from 'react'
-import { Container } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import './Footer.css';
+import {Link} from "react-router-dom";
 
 const Footer = () => (
   <Container className={"Tin-Can"}>
-    <p className={"Footer-Logo"}>Course-O-Meter</p>
-    <p className={"Footer-Text"}>CC0. No rights reserved.</p>
+    <Row className={"Footer-Row"}>
+      <Col md="4">
+        <a className={"Footer-Logo"} href='https://t.me/courserobot' target="_blank" rel="noopener noreferrer">??? ??? ???</a>
+      </Col>
+      <Col md="4" >
+        <Link className={"Footer-Logo"} to='/'>Course-O-Meter</Link>
+      </Col>
+      <Col md="4">
+        <Link className={"Footer-Logo"} to='/faculty-o-meter'>Faculty-O-Meter</Link>
+      </Col>
+    </Row>
   </Container>
 );
 
