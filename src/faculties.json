@@ -32,10 +32,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.71,
-        "sampleSize": 247,
-        "work": 19.11,
-        "courseCount": 9
+        "grade": 3.78,
+        "sampleSize": 273,
+        "work": 18.1,
+        "courseCount": 10
       }
     ]
   },
@@ -96,10 +96,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.62,
-        "sampleSize": 325,
-        "work": 9.89,
-        "courseCount": 9
+        "grade": 3.63,
+        "sampleSize": 349,
+        "work": 9.6,
+        "courseCount": 10
       }
     ]
   },
@@ -136,9 +136,9 @@
       },
       {
         "year": "18-19",
-        "grade": 3.82,
-        "sampleSize": 373,
-        "work": 3.18,
+        "grade": 3.81,
+        "sampleSize": 402,
+        "work": 2.55,
         "courseCount": 11
       }
     ]
@@ -176,10 +176,10 @@
       },
       {
         "year": "18-19",
-        "grade": 4.08,
-        "sampleSize": 660,
-        "work": -1.67,
-        "courseCount": 12
+        "grade": 4.09,
+        "sampleSize": 688,
+        "work": -2.23,
+        "courseCount": 13
       }
     ]
   },
@@ -216,9 +216,9 @@
       },
       {
         "year": "18-19",
-        "grade": 3.94,
-        "sampleSize": 635,
-        "work": 8.6,
+        "grade": 3.93,
+        "sampleSize": 653,
+        "work": 8.9,
         "courseCount": 10
       }
     ]
@@ -292,10 +292,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.65,
-        "sampleSize": 1028,
-        "work": 7.33,
-        "courseCount": 15
+        "grade": 3.66,
+        "sampleSize": 1161,
+        "work": 7.18,
+        "courseCount": 17
       }
     ]
   },
@@ -332,10 +332,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.63,
-        "sampleSize": 1954,
-        "work": 10.6,
-        "courseCount": 15
+        "grade": 3.62,
+        "sampleSize": 2504,
+        "work": 9.75,
+        "courseCount": 20
       }
     ]
   },
@@ -372,10 +372,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.17,
-        "sampleSize": 867,
-        "work": 3.42,
-        "courseCount": 12
+        "grade": 3.28,
+        "sampleSize": 938,
+        "work": 4.21,
+        "courseCount": 14
       }
     ]
   },
@@ -412,9 +412,9 @@
       },
       {
         "year": "18-19",
-        "grade": 3.4,
-        "sampleSize": 332,
-        "work": 16.33,
+        "grade": 3.41,
+        "sampleSize": 340,
+        "work": 16.0,
         "courseCount": 9
       }
     ]
@@ -452,10 +452,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.76,
-        "sampleSize": 960,
-        "work": 13.41,
-        "courseCount": 17
+        "grade": 3.71,
+        "sampleSize": 1098,
+        "work": 12.79,
+        "courseCount": 19
       }
     ]
   },
@@ -492,10 +492,10 @@
       },
       {
         "year": "18-19",
-        "grade": 4.07,
-        "sampleSize": 306,
-        "work": 7.4,
-        "courseCount": 5
+        "grade": 4.13,
+        "sampleSize": 415,
+        "work": 4.38,
+        "courseCount": 8
       }
     ]
   },
@@ -532,10 +532,10 @@
       },
       {
         "year": "18-19",
-        "grade": 3.57,
-        "sampleSize": 1568,
-        "work": 14.0,
-        "courseCount": 21
+        "grade": 3.55,
+        "sampleSize": 1748,
+        "work": 14.52,
+        "courseCount": 23
       }
     ]
   },
@@ -572,9 +572,9 @@
       },
       {
         "year": "18-19",
-        "grade": 3.25,
-        "sampleSize": 562,
-        "work": 8.33,
+        "grade": 3.27,
+        "sampleSize": 678,
+        "work": 7.22,
         "courseCount": 9
       }
     ]
@@ -648,10 +648,10 @@
       },
       {
         "year": "18-19",
-        "grade": 4.0,
-        "sampleSize": 1484,
-        "work": 12.41,
-        "courseCount": 17
+        "grade": 3.95,
+        "sampleSize": 1646,
+        "work": 11.55,
+        "courseCount": 20
       }
     ]
   },
