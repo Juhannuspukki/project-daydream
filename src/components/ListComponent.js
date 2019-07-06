@@ -21,42 +21,43 @@ class ListComponent extends Component {
     this.handleClick = this.handleClick.bind(this);
     this.routeChange = this.routeChange.bind(this);
   }
-  
+
   componentDidMount() {
     this.loadYear(this.state.settings.year);
   }
-  
+
   loadYear(year) {
     const original = initial;
     let yearlyData = [];
-    
+
     _.map(original, course => {
       let instance = _.findWhere(course["instances"], {year: year});
       if (typeof instance !== "undefined") {
         instance["name"] = course["name"];
+        instance["id"] = course["id"];
         yearlyData.push(instance)
       }
     });
-  
+
     const sortedData = _.sortBy(yearlyData, this.state.settings.sort.column);
-  
+
     if (this.state.settings.sort.direction === 'desc') {
       sortedData.reverse();
     }
-    
+
     this.setState(prevState => ({
       data: sortedData
     }))
   }
-  
+
   onSort(sortKey) {
     const direction = this.state.settings.sort.column ? (this.state.settings.sort.direction === 'asc' ? 'desc' : 'asc') : 'desc';
     const sortedData = _.sortBy(this.state.data, sortKey);
-  
+
     if (direction === 'desc') {
       sortedData.reverse();
     }
-    
+
     this.setState(prevState => ({
       data: sortedData,
       settings: {
@@ -68,7 +69,7 @@ class ListComponent extends Component {
       }
     }))
   }
-  
+
   handleSearch(e) {
     const searchString = e.target.value.toLowerCase();
     this.setState(prevState => ({
@@ -78,7 +79,7 @@ class ListComponent extends Component {
       }
     }))
   }
-  
+
   handleClick(button) {
     const checked = !this.state.settings[button];
     this.setState(prevState => ({
@@ -88,7 +89,7 @@ class ListComponent extends Component {
       }
     }))
   }
-  
+
   changeYear(toYear) {
     this.setState(prevState => ({
       settings: {
@@ -97,20 +98,20 @@ class ListComponent extends Component {
       }
     }))
   }
-  
+
   routeChange(path) {
     this.props.history.push(path);
   };
-  
+
   render() {
-    
+
     const courses = this.state.data;
     const showAll = this.state.settings.showAll;
     const searchString = this.state.settings.filter;
     const column = this.state.settings.sort.column;
     const direction = this.state.settings.sort.direction;
     let counter = 0;
-    
+
     return (
         <Container>
           <NavBar pretitle="The incredible" title={"Course\u2011O\u2011Meter"}/>
@@ -140,7 +141,7 @@ class ListComponent extends Component {
                 return (
                   <tr key={course.code}
                       data-item={course}
-                      onClick={() => {this.props.saveState(this.state.settings); this.routeChange(`/course/${course.name}`)}}>
+                      onClick={() => {this.props.saveState(this.state.settings); this.routeChange(`/course/${course.id}`)}}>
                     <td className={"Code"} data-title="Code">{course.code}</td>
                     <td className={"Name"} data-title="Name">{course.name}</td>
                     <td className={"Work"} data-title="Work">{(course.work > 0 ) && "+"}{course.work}%</td>
@@ -152,7 +153,7 @@ class ListComponent extends Component {
             }
             </tbody>
           </table>
-          <p className="Counter">{counter} results</p>
+          <p className="Counter">{counter} results<br/>Last database update: 7.7.2019</p>
         </Container>
     );
   }

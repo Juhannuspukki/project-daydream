@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Switch, Route } from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import ListComponent from "./ListComponent";
 import TextComponent from "./TextComponent";
 import FacultyGraphs from "./FacultyGraphs";
@@ -18,14 +18,14 @@ class Main extends Component {
         direction: "desc"
       }
     };
-    
+
     this.saveState = this.saveState.bind(this);
   }
-  
+
   saveState(data) {
     this.setState(data);
   }
-  
+
   render() {
     return (
       <main>
@@ -35,7 +35,7 @@ class Main extends Component {
           />
           <Route path='/wtf' component={TextComponent}/>
           <Route path='/faculty-o-meter' component={FacultyGraphs}/>
-          <Route path={'/course/:name'} component={Course}/>
+          <Route path={'/course/:id'} component={Course}/>
         </Switch>
       </main>
     );

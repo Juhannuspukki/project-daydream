@@ -12,33 +12,33 @@ class Course extends Component {
   constructor(props) {
     super(props);
       this.state = {
-        data: _.findWhere(kaiku, {name: props.match.params.name}),
+        data: _.findWhere(kaiku, {id: props.match.params.id}),
         chartData: [],
         samples: [],
         codes: [],
         letters: []
       };
   };
-  
+
   componentDidMount() {
     this.processData();
   }
-  
+
   processData() {
     const chartData = [];
     const samples = [];
     let codes = [];
     let letters = [];
-  
+
     _.map(this.state.data.instances, instance => {
       chartData.push({year: instance.year, grade: instance.grade, work: instance.work});
       if (codes.indexOf(instance.code) === -1) {codes.push(instance.code)}
       samples.push({year: instance.year, sampleSize: instance.sampleSize});
       if (instance.letter) {letters.push(instance.letter)}
     });
-  
+
     codes = codes.reverse();
-  
+
     this.setState({
       chartData: chartData,
       samples: samples,
@@ -46,14 +46,14 @@ class Course extends Component {
       letters: letters
     });
   }
-  
+
   render() {
-    
+
     const chartData = this.state.chartData;
     const codes = this.state.codes;
     const samples = this.state.samples;
     const letters = this.state.letters;
-    
+
     return (
       <Container>
         <NavBar pretitle="The incredible" title={"Course\u2011O\u2011Meter"}/>
