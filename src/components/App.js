@@ -169,7 +169,6 @@ class App extends Component {
           <Route path="/wtf" exact component={TextComponent} />
           <Route path="/faculty-o-meter" exact component={FacultyGraphs} />
           <Route path="/course/:id" exact component={Course} />
-          <Route component={NotFound} />
         </Switch>
         <Footer />
       </main>
