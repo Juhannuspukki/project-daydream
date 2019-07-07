@@ -9,9 +9,8 @@
   font-size: 1.5rem;
   text-align: center;
   margin: 0 0 3rem 0;
-}
-
-.Footer-Logo:hover {
-  color: #355f8c;
-  text-decoration: none;
+  &:hover {
+    color: #355f8c;
+    text-decoration: none;
+  }
 }

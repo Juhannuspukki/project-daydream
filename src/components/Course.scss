@@ -1,24 +1,56 @@
-.Course-Name {
+.Course-Description-Box {
   color: #ffffff;
   text-align: center;
-  font-size: 1.5rem;
+  min-height: 300px;
+  .Course-Grade-Pre-Title {
+    margin: 0;
+  }
+  .Course-Grades {
+    font-family: 'Righteous', cursive;
+    font-size: 6rem;
+    margin: 1rem 0;
+  }
+  .Course-Grades-Previous {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    margin: 1rem 0 2rem 0;
+  }
 }
 
-.Course-Codes {
+.Course-Name-Box {
   color: #ffffff;
   text-align: center;
-  font-size: 1rem;
-  margin: 1rem 0 0 0;
-}
-
-.Course-Grades {
-  color: #ffffff;
-  text-align: center;
-  margin: 1rem 0 3rem 0;
+  margin-bottom: 3rem;
+  .Course-Name {
+    font-family: 'Righteous', cursive;
+    font-size: 1.75rem;
+    margin: 7rem 0 1rem 0;
+  }
+  .Course-Codes {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .Old-Course-Codes {
+    font-size: 1rem;
+    margin: 1rem 0 0 0;
+  }
 }
 
 .Chart {
   margin-bottom: 3rem;
+}
+
+.Bottom-Links {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  a {
+    color: #ffffff;
+    &:hover {
+      color: #355f8c;
+      text-decoration: none;
+    }
+  }
 }
 
 .recharts-text {
@@ -27,4 +59,13 @@
 
 .recharts-legend-item-text{
   color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .Course-Name-Box {
+    margin-bottom: 6rem;
+  }
+  .Course-Description-Box, .Chart {
+    min-height: 360px;
+  }
 }

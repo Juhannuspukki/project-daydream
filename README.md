@@ -13,3 +13,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Wrote a load of stateless functions
 - Now using react-helmet for og:stuff
 - Faculty-O-Meter graphs are now visible as default
+- Redesign course page UI
