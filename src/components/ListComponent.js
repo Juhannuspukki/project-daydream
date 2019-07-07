@@ -82,7 +82,7 @@ const ListComponent = (props) => {
                   key={course.code}
                   data-item={course}
                   onClick={() => {
-                    routeChange(history, `/course/${course.id}`);
+                    routeChange(history, `/courses/${course.id}`);
                   }}
                 >
                   <td className="Code" data-title="Code">

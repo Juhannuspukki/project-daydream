@@ -9,7 +9,6 @@ import TextComponent from './TextComponent';
 import FacultyGraphs from './FacultyGraphs';
 import Course from './Course';
 import initial from '../kaiku.json';
-import NotFound from './NotFound';
 
 const routeChange = (history, path) => {
   history.push(path);
@@ -168,7 +167,7 @@ class App extends Component {
           />
           <Route path="/wtf" exact component={TextComponent} />
           <Route path="/faculty-o-meter" exact component={FacultyGraphs} />
-          <Route path="/course/:id" exact component={Course} />
+          <Route path="/courses/:id" exact component={Course} />
         </Switch>
         <Footer />
       </main>

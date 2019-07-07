@@ -76,7 +76,7 @@ const Course = (props) => {
         />
         <meta
           property="og:url"
-          content={`https://course-o-meter.com/course/${id}`}
+          content={`https://course-o-meter.com/courses/${id}`}
         />
         <meta
           property="og:description"
