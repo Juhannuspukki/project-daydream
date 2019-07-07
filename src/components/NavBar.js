@@ -3,7 +3,7 @@ import './NavBar.scss';
 import { Link } from 'react-router-dom';
 
 const NavBar = (props) => {
-  const {pretitle, title } = props;
+  const { pretitle, title } = props;
   return (
     <div>
       <div className="Info-Button-Container">

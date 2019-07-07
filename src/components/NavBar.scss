@@ -7,9 +7,9 @@
     font-family: 'Righteous', cursive;
     color: #ffffff;
     z-index: 1130;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
     border: 1px solid #fff;
-    border-radius: 0.5rem;
+    border-radius: 50%;
     &:hover {
       text-decoration: none;
       color: #fff;
@@ -17,7 +17,6 @@
     }
   }
 }
-
 
 .Pre-Header {
   text-align: center;
