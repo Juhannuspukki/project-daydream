@@ -1,16 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ButtonGroup, Button } from 'reactstrap';
-import './Settings.css';
+import './Settings.scss';
 
-class Settings extends Component {
-  render() {
-    return (
-      <ButtonGroup className={"Control-Buttons"}>
-        <Button className={"Glowless"} onClick={() => this.props.handleClick("showAll")}> Show {this.props.showAll ? "graded" : "all"} courses</Button>
-        <Button className={"Glowless"} onClick={() => this.props.handleClick("showAbsolutes")}>Show {this.props.showAbsolutes ? "relative" : "absolute"} grades</Button>
-      </ButtonGroup>
-    );
-  }
+const Settings = (props) => {
+  const { showAll, showAbsolutes, handleClick } = props;
+  return (
+    <ButtonGroup className="Control-Buttons">
+      <Button className="Glowless" onClick={() => handleClick('showAll')}>
+        Show&nbsp;
+        {showAll ? 'graded' : 'all'}
+        &nbsp;courses
+      </Button>
+      <Button className="Glowless" onClick={() => handleClick('showAbsolutes')}>
+        Show&nbsp;
+        {showAbsolutes ? 'relative' : 'absolute'}
+        &nbsp;grades
+      </Button>
+    </ButtonGroup>
+  );
 }
 
 export default Settings;

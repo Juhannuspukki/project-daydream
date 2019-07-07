@@ -1,43 +1,60 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, InputGroup, InputGroupButtonDropdown, DropdownItem, DropdownToggle, DropdownMenu, Input } from 'reactstrap';
-import './SearchForm.css';
+import './SearchForm.scss';
 
 class Settings extends Component {
   constructor(props) {
     super(props);
     this.state = {
       dropdownOpen: false,
-      years: ["18-19", "17-18", "16-17", "15-16", "14-15"],
+      years: ['18-19', '17-18', '16-17', '15-16', '14-15'],
     };
-    
+
     this.toggle = this.toggle.bind(this);
-    
   }
-  
+
   toggle() {
+    const { dropdownOpen } = this.state;
     this.setState({
-      dropdownOpen: !this.state.dropdownOpen
+      dropdownOpen: !dropdownOpen,
     });
   }
-  
+
   render() {
-    let newdata = this.state.years;
-  
+    const {
+      loadYear,
+      currentYear,
+      changeYear,
+      handleSearch,
+      searchString,
+    } = this.props;
+
+    const { dropdownOpen, years} = this.state;
+
     return (
       <Form>
         <FormGroup>
           <InputGroup>
-            <Input className={"Search-Bar"} type="text" placeholder="Search..." value={this.props.searchString} onChange={this.props.handleSearch} />
-            <InputGroupButtonDropdown className="YearButton" addonType="append" isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+            <Input
+              className="Search-Bar"
+              type="text"
+              placeholder="Search..."
+              value={searchString}
+              onChange={handleSearch}
+            />
+            <InputGroupButtonDropdown className="YearButton" addonType="append" isOpen={dropdownOpen} toggle={this.toggle}>
               <DropdownToggle caret>
-                {this.props.currentYear}
+                {currentYear}
               </DropdownToggle>
               <DropdownMenu>
-                {newdata.map(function(year, index) {
-                  return (
-                    <DropdownItem key={index} onClick={() => {this.props.loadYear(year); this.props.changeYear(year);}}>{year}</DropdownItem>
-                  );
-                }, this)}
+                {years.map((year, index) => (
+                  <DropdownItem
+                    key={index}
+                    onClick={() => { loadYear(year); changeYear(year); }}
+                  >
+                    {year}
+                  </DropdownItem>
+                ))}
               </DropdownMenu>
             </InputGroupButtonDropdown>
           </InputGroup>
