@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 import _ from 'underscore';
 import { Route, Switch } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Footer from './Footer';
 import ListComponent from './ListComponent';
 import TextComponent from './TextComponent';
@@ -124,6 +125,27 @@ class App extends Component {
     const { data, settings } = this.state;
     return (
       <main>
+        <Helmet>
+          <title>Course-O-Meter</title>
+          <meta
+            name="description"
+            content="Course-O-Meter gives new grades to Tampere University courses and lets you
+            compare them with each other. An invaluable tool for planning your studies!"
+          />
+          <meta
+            property="og:title"
+            content="The incredible Course-O-Meter"
+          />
+          <meta
+            property="og:url"
+            content="https://course-o-meter.com"
+          />
+          <meta
+            property="og:description"
+            content="Course-O-Meter gives new grades to Tampere University courses and lets you
+            compare them with each other. An invaluable tool for planning your studies!"
+          />
+        </Helmet>
         <Switch>
           <Route
             exact

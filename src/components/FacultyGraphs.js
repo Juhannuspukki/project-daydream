@@ -19,6 +19,7 @@ import {
 } from 'reactstrap';
 import './FacultyGraphs.scss';
 import generate from 'string-to-color';
+import { Helmet } from 'react-helmet';
 import initial from '../faculties.json';
 import CustomizedXAxisTick from './CustomTick';
 import NavBar from './NavBar';
@@ -64,6 +65,25 @@ class FacultyGraphs extends Component {
 
     return (
       <Container>
+        <Helmet>
+          <title>Faculty-O-Meter</title>
+          <meta
+            name="description"
+            content="What is the hottest faculty of the campus? Use this tool to find out."
+          />
+          <meta
+            property="og:title"
+            content="The astounding Faculty-O-Meter"
+          />
+          <meta
+            property="og:url"
+            content="https://course-o-meter.com/faculty-o-meter"
+          />
+          <meta
+            property="og:description"
+            content="What is the hottest faculty of the campus? Use this tool to find out."
+          />
+        </Helmet>
         <NavBar pretitle="The astounding" title={'Faculty\u2011O\u2011Meter'} />
         <h2 className="Title">Add to comparison</h2>
         <Form className="Form">

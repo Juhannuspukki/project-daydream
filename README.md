@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 0.9.0
+## 1.1.0
 - New db dump
 - Added a notice for a new db dump being added
 - New and bigger "?" button because people have trouble finding it
@@ -11,3 +11,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Now using react-helmet for og:stuff
 - Started using eslint
 - Wrote a load of stateless functions
+- Now using react-helmet for og:stuff

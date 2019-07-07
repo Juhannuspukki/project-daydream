@@ -13,13 +13,14 @@ import {
   ReferenceLine,
 } from 'recharts';
 import { Container, Row, Col } from 'reactstrap';
+import { Helmet } from 'react-helmet';
 import kaiku from '../kaiku.json';
 import CustomizedXAxisTick from './CustomTick';
 import NavBar from './NavBar';
 
 const processData = (props) => {
   const course = _.findWhere(kaiku, { id: props.match.params.id });
-  const { name } = course;
+  const { name, id } = course;
   const chartData = [];
   const samples = [];
   const codes = [];
@@ -42,6 +43,7 @@ const processData = (props) => {
 
   return ({
     name,
+    id,
     chartData,
     samples,
     codes,
@@ -52,6 +54,7 @@ const processData = (props) => {
 const Course = (props) => {
   const {
     name,
+    id,
     chartData,
     codes,
     samples,
@@ -60,6 +63,26 @@ const Course = (props) => {
 
   return (
     <Container>
+      <Helmet>
+        <title>{`${name} - Course-O-Meter`}</title>
+        <meta
+          name="description"
+          content="Course-O-Meter gives new grades to Tampere University courses and lets you
+            compare them with each other. An invaluable tool for planning your studies!"
+        />
+        <meta
+          property="og:title"
+          content={`${name} - The incredible Course-O-Meter`}
+        />
+        <meta
+          property="og:url"
+          content={`https://course-o-meter.com/course/${id}`}
+        />
+        <meta
+          property="og:description"
+          content={`View the detailed history of course "${name}" on Course-O-Meter.com`}
+        />
+      </Helmet>
       <NavBar pretitle="The incredible" title={'Course\u2011O\u2011Meter'} />
       <h2 className="Course-Name">{name}</h2>
       <h3 className="Course-Codes">
