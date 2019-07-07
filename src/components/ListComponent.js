@@ -76,7 +76,6 @@ const ListComponent = (props) => {
               )
               && (course.code.toLowerCase().includes(filter)
               || course.name.toLowerCase().includes(filter))) {
-
               counter += 1;
               return (
                 <tr
