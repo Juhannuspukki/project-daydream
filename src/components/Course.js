@@ -21,7 +21,7 @@ import NavBar from './NavBar';
 
 const processData = (props) => {
   const course = _.findWhere(kaiku, { id: props.match.params.id });
-  const { name, id } = course;
+  const { name, id, link } = course;
 
   const chartData = [];
   const sampleData = [];
@@ -52,6 +52,7 @@ const processData = (props) => {
   return ({
     name,
     id,
+    link,
     chartData,
     sampleData,
     codes,
@@ -64,6 +65,7 @@ const Course = (props) => {
   const {
     name,
     id,
+    link,
     chartData,
     codes,
     sampleData,
@@ -185,6 +187,15 @@ const Course = (props) => {
         <Col md="6" className="Bottom-Links">
           <Link to="/">← Back to course list</Link>
         </Col>
+        {link
+          && (
+          <Col md="6" className="Bottom-Links Hidden">
+            <a href={`https://poprock.tut.fi/group/pop/opas/opintojaksot/-/opintojakso/2019-2020/${link}`} target="_blank" rel="noopener noreferrer">
+            View on POP →
+            </a>
+          </Col>
+          )
+        }
       </Row>
     </Container>
   );
