@@ -17,7 +17,6 @@ import {
   Form,
   FormGroup,
 } from 'reactstrap';
-import './FacultyGraphs.scss';
 import generate from 'string-to-color';
 import { Helmet } from 'react-helmet';
 import initial from '../faculties.json';

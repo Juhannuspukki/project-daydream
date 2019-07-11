@@ -1,6 +1,5 @@
 import React from 'react';
 import { ButtonGroup, Button } from 'reactstrap';
-import './Settings.scss';
 
 const Settings = (props) => {
   const { showAll, showAbsolutes, handleClick } = props;

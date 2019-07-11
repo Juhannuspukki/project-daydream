@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import './TextComponent.scss';
 import NavBar from './NavBar';
 
 const TextComponent = () => (

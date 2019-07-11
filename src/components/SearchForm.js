@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Form, FormGroup, InputGroup, InputGroupButtonDropdown, DropdownItem, DropdownToggle, DropdownMenu, Input } from 'reactstrap';
-import './SearchForm.scss';
 
 class Settings extends Component {
   constructor(props) {

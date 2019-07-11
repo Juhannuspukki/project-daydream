@@ -1,0 +1,30 @@
+@import '_constants';
+@import 'course';
+@import 'facultygraphs';
+@import 'footer';
+@import 'textcomponent';
+@import 'listcomponent';
+@import 'navbar';
+@import 'searchform';
+@import 'settings';
+
+body {
+  background-color: $colorBlueDark;
+  animation: fadein 1s;
+  transition: ease-in-out, background-color .15s ease-in-out,
+              border-color .15s ease-in-out,
+              box-shadow .15s ease-in-out;
+}
+
+body.Light {
+  background-color: $colorWhite;
+}
+
+.Hidden {
+  display: none;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

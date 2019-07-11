@@ -1,0 +1,79 @@
+.Info-Button-Container {
+  button {
+    outline-color: transparent;
+    outline-style: none;
+    box-shadow: none;
+    margin-top: 1rem;
+    display: block;
+    float: left;
+    background-color: $colorBlueDark;
+    color: $colorWhite;
+    border-color: $colorWhite;
+    border-radius: 1rem;
+    border-width: 2px;
+    svg {
+      fill: $colorWhite;
+      height: 16px;
+      margin: 0.25rem;
+    }
+    &:hover{
+      background-color: $colorBlueHighLight;
+    }
+  }
+  .Wtf-Button {
+    float: right;
+  }
+  .Colour-Button {
+    float: left;
+  }
+}
+
+.Pre-Header {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 1.2rem;
+  color: $colorWhite;
+  padding: 3.5rem 0 0 0;
+  margin: 0;
+}
+
+.Header {
+  color: $colorWhite;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
+}
+
+.Link-Button:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 511px) {
+  .Header {
+    font-size: 2.5rem;
+  }
+}
+
+.Light {
+  .Info-Button-Container {
+    button {
+      border: 2px solid $colorBlueDark;
+      background-color: $colorWhite;
+      color: $colorWhite;
+      svg {
+        fill: $colorBlueDark;
+      }
+      &:hover{
+        background-color: $colorBlueHighLight;
+        svg {
+          fill: $colorWhite;
+        }
+      }
+    }
+  }
+
+  .Pre-Header, .Header {
+    color: $colorBlueDark;
+  }
+}

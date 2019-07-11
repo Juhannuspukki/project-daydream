@@ -1,0 +1,42 @@
+.Control-Buttons {
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Glowless, .Glowless:focus, .Glowless:active {
+  outline-color: transparent;
+  outline-style: none;
+  box-shadow: none;
+  color: $colorWhite;
+  background-color: $colorBlueDark;
+  border-color: $colorWhite;
+  border-width: 2px;
+}
+
+.Glowless:hover{
+  background-color: $colorBlueHighLight;
+  border-color: $colorWhite;
+}
+
+@media (max-width: 512px) {
+  .Glowless {
+    font-size: 0.95rem;
+    padding: .5rem;
+  }
+}
+
+.Light {
+  .Glowless, .Glowless:focus, .Glowless:active {
+    color: $colorBlueDark;
+    background-color: $colorWhite;
+    border-color: $colorBlueDark;
+    border-width: 2px;
+
+  }
+
+  .Glowless:hover{
+    background-color: $colorBlueHighLight;
+    color: $colorWhite;
+  }
+}

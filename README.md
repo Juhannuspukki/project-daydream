@@ -14,3 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Now using react-helmet for og:stuff
 - Faculty-O-Meter graphs are now visible as default
 - Redesign course page UI
+
+## 1.2.2
+- Course-O-Meter is now period-based instead of course-based
+- Added link to pop POP for course page
+- Light theme
