@@ -3,7 +3,6 @@ import _ from 'underscore';
 import { Container } from 'reactstrap';
 import SearchForm from './SearchForm';
 import Settings from './Settings';
-import NavBar from './NavBar';
 
 const ListComponent = (props) => {
   const {
@@ -23,7 +22,6 @@ const ListComponent = (props) => {
 
   return (
     <Container>
-      <NavBar pretitle="The incredible" title={'Course\u2011O\u2011Meter'} />
       <SearchForm
         handleSearch={handleSearch}
         loadYear={loadYear}

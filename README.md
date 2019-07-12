@@ -19,3 +19,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Course-O-Meter is now period-based instead of course-based
 - Added link to pop POP for course page
 - Light theme
+- Reworked header
+- Adjusted description

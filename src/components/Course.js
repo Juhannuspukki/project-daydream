@@ -16,7 +16,6 @@ import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import kaiku from '../kaiku.json';
 import CustomizedXAxisTick from './CustomTick';
-import NavBar from './NavBar';
 
 const processData = (props) => {
   const course = _.findWhere(kaiku, { id: props.match.params.id });
@@ -100,7 +99,6 @@ const Course = (props) => {
           content={`View the detailed history of course "${name}" on Course-O-Meter.com`}
         />
       </Helmet>
-      <NavBar pretitle="The incredible" title={'Course\u2011O\u2011Meter'} />
       <div className="Course-Name-Box">
         <h2 className="Course-Name">{`${name}`}</h2>
         <p className="Course-Period">{`${period.includes('-') ? 'Periods' : 'Period'} ${period}`}</p>

@@ -10,6 +10,7 @@ import TextComponent from './TextComponent';
 import FacultyGraphs from './FacultyGraphs';
 import Course from './Course';
 import initial from '../kaiku.json';
+import NavBar from './NavBar';
 
 const routeChange = (history, path) => {
   history.push(path);
@@ -152,6 +153,7 @@ class App extends Component {
             compare them with each other. An invaluable tool for planning your studies!"
           />
         </Helmet>
+        <NavBar />
         <Switch>
           <Route
             path="/"

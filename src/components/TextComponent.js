@@ -1,10 +1,8 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import NavBar from './NavBar';
 
 const TextComponent = () => (
   <Container className="Tin-Can">
-    <NavBar pretitle="The incredible" title={'Course\u2011O\u2011Meter'} />
     <p>
       <i>
         Would students graduate faster, if teaching was better?
@@ -78,10 +76,9 @@ const TextComponent = () => (
       was concluded that if the course has at least 21 votes, the grade is at least somewhat
       reliable. The ones with fewer votes were still left in as a curiosity and for you to see what
       I'm talking about. Absolute grades from the Kaiku system were also left in for reference. If
-      the same course is held in Finnish and in English the English entries are removed. This
-      is because the English variants seem to somehow have much better scores than the equivalent
-      Finnish courses. If a course is held several times during a year, it is still treated as a
-      single course.
+      the same course is held in Finnish and in English the English entries are attempted to be
+      removed. This is because the English variants seem to somehow have much better scores than
+      the equivalent Finnish courses.
     </p>
 
     <h2 className="Text-Title">Faculty-O-Meter</h2>

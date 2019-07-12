@@ -21,8 +21,6 @@ import generate from 'string-to-color';
 import { Helmet } from 'react-helmet';
 import initial from '../faculties.json';
 import CustomizedXAxisTick from './CustomTick';
-import NavBar from './NavBar';
-
 
 class FacultyGraphs extends Component {
   constructor(props) {
@@ -83,7 +81,6 @@ class FacultyGraphs extends Component {
             content="What is the hottest faculty of the campus? Use this tool to find out."
           />
         </Helmet>
-        <NavBar pretitle="The astounding" title={'Faculty\u2011O\u2011Meter'} />
         <h2 className="Title">Add to comparison</h2>
         <Form className="Form">
           <Row form>
