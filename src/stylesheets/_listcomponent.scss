@@ -1,7 +1,6 @@
 .List-Component {
-  background-color: #171f28;
   font-size: 0.75rem;
-  color: white;
+  color: $colorWhite;
   text-align: left;
 }
 
@@ -11,11 +10,15 @@ td, th {
 }
 
 tbody > tr:nth-child(odd) {
-  background-color: #1e2a38;
+  background-color: $colorBlueLight;
 }
 
 tbody > tr:hover {
-  background-color: #355f8c;
+  background-color: $colorBlueHighLight;
+}
+
+th.Period {
+  cursor: default;
 }
 
 .Code {
@@ -24,6 +27,11 @@ tbody > tr:hover {
 
 .Work {
   text-align: center;
+}
+
+.Period {
+  text-align: center;
+  white-space: nowrap;
 }
 
 .Rank {
@@ -37,7 +45,7 @@ tbody > tr:hover {
 .Counter {
   font-size: 0.75rem;
   text-align: center;
-  color: #fff;
+  color: $colorWhite;
   padding: 0.5rem
 }
 
@@ -48,7 +56,7 @@ tbody > tr:hover {
 
 .position-relative.form-check {
   display: flex;
-  color: #ffffff;
+  color: $colorWhite;
 }
 
 @media (min-width: 512px) {
@@ -63,10 +71,35 @@ tbody > tr:hover {
 @media (max-width: 511px) {
   .List-Component {
     margin: 0 -15px;
+    td, th {
+      padding: 0.75rem 0.5rem;
+    }
   }
-  
+
   .Work {
     display: none;
   }
-  
+
+}
+
+
+.Light {
+  tbody > tr, th {
+    border-bottom: 1px solid $colorBlueDark;
+  }
+
+  tbody > tr:nth-child(odd) {
+    background-color: $colorWhite;
+  }
+
+  tbody > tr:hover {
+    color: $colorWhite;
+    background-color: $colorBlueHighLight;
+  }
+
+  .List-Component,
+  .Counter,
+  .position-relative.form-check {
+    color: $colorBlueDark;
+  }
 }

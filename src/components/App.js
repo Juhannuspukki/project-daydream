@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import './App.scss';
+import '../stylesheets/styles.scss';
 import _ from 'underscore';
 import { Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { withCookies } from 'react-cookie';
 import Footer from './Footer';
 import ListComponent from './ListComponent';
 import TextComponent from './TextComponent';
 import FacultyGraphs from './FacultyGraphs';
 import Course from './Course';
 import initial from '../kaiku.json';
+import NavBar from './NavBar';
 
 const routeChange = (history, path) => {
   history.push(path);
@@ -38,8 +40,12 @@ class App extends Component {
   }
 
   componentDidMount() {
+    const { cookies } = this.props;
     const { settings } = this.state;
     this.loadYear(settings.year);
+    if (cookies.get('theme') === 'dark') {
+      document.body.classList.remove('Light');
+    }
   }
 
   onSort(sortKey) {
@@ -74,6 +80,7 @@ class App extends Component {
       const instance = _.findWhere(course.instances, { year });
       if (typeof instance !== 'undefined') {
         instance.name = course.name;
+        instance.period = course.period;
         instance.id = course.id;
         yearlyData.push(instance);
       }
@@ -146,6 +153,7 @@ class App extends Component {
             compare them with each other. An invaluable tool for planning your studies!"
           />
         </Helmet>
+        <NavBar />
         <Switch>
           <Route
             path="/"
@@ -175,4 +183,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withCookies(App);

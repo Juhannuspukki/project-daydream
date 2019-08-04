@@ -1,10 +1,8 @@
 import React from 'react';
-import './ListComponent.scss';
 import _ from 'underscore';
 import { Container } from 'reactstrap';
 import SearchForm from './SearchForm';
 import Settings from './Settings';
-import NavBar from './NavBar';
 
 const ListComponent = (props) => {
   const {
@@ -24,7 +22,6 @@ const ListComponent = (props) => {
 
   return (
     <Container>
-      <NavBar pretitle="The incredible" title={'Course\u2011O\u2011Meter'} />
       <SearchForm
         handleSearch={handleSearch}
         loadYear={loadYear}
@@ -52,6 +49,9 @@ const ListComponent = (props) => {
                 column === 'name' && (direction === 'asc' ? '↑' : '↓')
               }
             </th>
+            <th className="Period">
+              Per.
+            </th>
             <th className="Work" onClick={() => onSort('work')}>
               Work&nbsp;
               {
@@ -59,7 +59,7 @@ const ListComponent = (props) => {
               }
             </th>
             <th className="Rank" onClick={() => onSort('grade')}>
-              Rank&nbsp;
+              #&nbsp;
               {
                 column === 'grade' && (direction === 'asc' ? '↑' : '↓')
               }
@@ -71,15 +71,14 @@ const ListComponent = (props) => {
             if (
               (
                 (showAll === true)
-                || (showAll === false
-                && 'letter' in course)
+                || (showAll === false && 'letter' in course)
               )
               && (course.code.toLowerCase().includes(filter)
               || course.name.toLowerCase().includes(filter))) {
               counter += 1;
               return (
                 <tr
-                  key={course.code}
+                  key={course.id}
                   data-item={course}
                   onClick={() => {
                     routeChange(history, `/courses/${course.id}`);
@@ -90,6 +89,9 @@ const ListComponent = (props) => {
                   </td>
                   <td className="Name" data-title="Name">
                     {course.name}
+                  </td>
+                  <td className="Period" data-title="Period">
+                    {course.period}
                   </td>
                   <td className="Work" data-title="Work">
                     {(course.work > 0) && '+'}

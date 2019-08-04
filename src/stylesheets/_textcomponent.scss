@@ -1,0 +1,31 @@
+.Tin-Can {
+  color: $colorWhite;
+}
+
+.Text-Title {
+  font-family: 'Righteous', cursive;
+  color: $colorWhite;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.Aamulehti {
+  color: $colorWhite;
+  text-decoration: underline;
+}
+
+.Aamulehti:hover {
+  color: $colorBlueHighLight;
+}
+
+.Light {
+  .Tin-Can,
+  .Text-Title,
+  .Aamulehti {
+    color: $colorBlueDark;
+  }
+
+  .Aamulehti:hover {
+    color: $colorBlueHighLight;
+  }
+}

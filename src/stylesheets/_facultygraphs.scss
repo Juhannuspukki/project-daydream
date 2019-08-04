@@ -1,10 +1,10 @@
 label {
-  color: #fff
+  color: $colorWhite
 }
 
 .Title {
   font-family: 'Righteous', cursive;
-  color: #fff;
+  color: $colorWhite;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -30,6 +30,13 @@ label {
 }
 
 .custom-control-input:checked~.custom-control-label::before {
-  border-color: #355f8c;
-  background-color: #355f8c;
+  border-color: $colorBlueHighLight;
+  background-color: $colorBlueHighLight;
+}
+
+
+.Light {
+  label, .Title {
+    color: $colorBlueDark
+  }
 }

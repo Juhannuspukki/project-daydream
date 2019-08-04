@@ -1,5 +1,5 @@
 .Course-Description-Box {
-  color: #ffffff;
+  color: $colorWhite;
   text-align: center;
   min-height: 300px;
   .Course-Grade-Pre-Title {
@@ -18,13 +18,13 @@
 }
 
 .Course-Name-Box {
-  color: #ffffff;
+  color: $colorWhite;
   text-align: center;
   margin-bottom: 3rem;
   .Course-Name {
     font-family: 'Righteous', cursive;
     font-size: 1.75rem;
-    margin: 7rem 0 1rem 0;
+    margin: 5rem 0 1rem 0;
   }
   .Course-Codes {
     font-size: 1rem;
@@ -45,20 +45,24 @@
   text-align: center;
   margin-bottom: 4rem;
   a {
-    color: #ffffff;
+    color: $colorWhite;
     &:hover {
-      color: #355f8c;
+      color: $colorBlueHighLight;
       text-decoration: none;
     }
   }
 }
 
 .recharts-text {
-  fill: #ffffff;
+  fill: $colorWhite;
 }
 
 .recharts-legend-item-text{
-  color: #ffffff;
+  color: $colorWhite;
+}
+
+.Graph-Text {
+  fill: $colorWhite;
 }
 
 @media (max-width: 767px) {
@@ -67,5 +71,31 @@
   }
   .Course-Description-Box, .Chart {
     min-height: 360px;
+  }
+}
+
+
+.Light {
+  .Course-Description-Box,
+  .Course-Name-Box,
+  .recharts-legend-item-text {
+    color: $colorBlueDark;
+  }
+
+  .Bottom-Links {
+    a {
+      color: $colorBlueDark;
+      &:hover {
+        color: $colorBlueHighLight;
+      }
+    }
+  }
+
+  .recharts-text {
+    fill: $colorBlueDark;
+  }
+
+  .Graph-Text {
+    fill: $colorBlueDark;
   }
 }

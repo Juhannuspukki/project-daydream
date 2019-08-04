@@ -1,0 +1,38 @@
+.Search-Bar {
+  border-color: $colorWhite;
+}
+
+.YearButton > button, .show>.btn-secondary.dropdown-toggle {
+  outline-color: transparent;
+  outline-style: none;
+  box-shadow: none;
+  color: $colorWhite;
+  background-color: $colorBlueDark;
+  border-color: $colorWhite;
+  border-width: 2px;
+  padding: 4px 12px;
+}
+
+.YearButton > button:hover {
+  background-color: $colorBlueHighLight;
+  border-color: $colorWhite;
+}
+
+.Light {
+  .Search-Bar {
+    border-color: $colorBlueDark;
+    border-width: 2px;
+  }
+
+  .YearButton > button, .show>.btn-secondary.dropdown-toggle {
+    color: $colorBlueDark;
+    background-color: $colorWhite;
+    border-color: $colorBlueDark;
+  }
+
+  .YearButton > button:hover {
+    color: $colorWhite;
+    background-color: $colorBlueHighLight;
+    border-color: $colorBlueDark;
+  }
+}
