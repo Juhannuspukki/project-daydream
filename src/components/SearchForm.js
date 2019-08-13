@@ -20,6 +20,7 @@ class Settings extends Component {
   }
 
   render() {
+
     const {
       loadYear,
       currentYear,
@@ -31,7 +32,7 @@ class Settings extends Component {
     const { dropdownOpen, years } = this.state;
 
     return (
-      <Form onSubmit={(e) => { e.preventDefault(); }}>
+      <Form onSubmit={(e) => { e.preventDefault(); return null; }}>
         <FormGroup>
           <InputGroup>
             <Input
@@ -40,6 +41,7 @@ class Settings extends Component {
               placeholder="Search..."
               value={searchString}
               onChange={handleSearch}
+              onKeyDown={e => e.keyCode === 13 && e.target.blur()}
             />
             <InputGroupButtonDropdown className="YearButton" addonType="append" isOpen={dropdownOpen} toggle={this.toggle}>
               <DropdownToggle caret>
