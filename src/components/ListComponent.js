@@ -1,5 +1,4 @@
 import React from 'react';
-import _ from 'underscore';
 import { Container } from 'reactstrap';
 import SearchForm from './SearchForm';
 import Settings from './Settings';
@@ -18,7 +17,17 @@ const ListComponent = (props) => {
     },
   } = props;
 
-  let counter = 0;
+  const filteredCourses = courses.filter((course) => {
+    if (
+      (
+        (showAll === true)
+        || (showAll === false && 'letter' in course)
+      )
+      && (course.code.toLowerCase().includes(filter)
+      || course.name.toLowerCase().includes(filter))) {
+      return course;
+    }
+  });
 
   return (
     <Container>
@@ -67,51 +76,40 @@ const ListComponent = (props) => {
           </tr>
         </thead>
         <tbody>
-          {_.map(courses, (course) => {
-            if (
-              (
-                (showAll === true)
-                || (showAll === false && 'letter' in course)
-              )
-              && (course.code.toLowerCase().includes(filter)
-              || course.name.toLowerCase().includes(filter))) {
-              counter += 1;
-              return (
-                <tr
-                  key={course.id}
-                  data-item={course}
-                  onClick={() => {
-                    routeChange(history, `/courses/${course.id}`);
-                  }}
-                >
-                  <td className="Code" data-title="Code">
-                    {course.code}
-                  </td>
-                  <td className="Name" data-title="Name">
-                    {course.name}
-                  </td>
-                  <td className="Period" data-title="Period">
-                    {course.period}
-                  </td>
-                  <td className="Work" data-title="Work">
-                    {(course.work > 0) && '+'}
-                    {course.work}
-                    %
-                  </td>
-                  <td
-                    className="Rank"
-                    data-title="Rank"
-                  >
-                    {showAbsolutes ? course.grade : (('letter' in course) && course.letter)}
-                  </td>
-                </tr>
-              );
-            }
-          })}
+          {filteredCourses.map(course => (
+            <tr
+              key={course.id}
+              data-item={course}
+              onClick={() => {
+                routeChange(history, `/courses/${course.id}`);
+              }}
+            >
+              <td className="Code" data-title="Code">
+                {course.code}
+              </td>
+              <td className="Name" data-title="Name">
+                {course.name}
+              </td>
+              <td className="Period" data-title="Period">
+                {course.period}
+              </td>
+              <td className="Work" data-title="Work">
+                {(course.work > 0) && '+'}
+                {course.work}
+                %
+              </td>
+              <td
+                className="Rank"
+                data-title="Rank"
+              >
+                {showAbsolutes ? course.grade : (('letter' in course) && course.letter)}
+              </td>
+            </tr>
+          ))}
         </tbody>
       </table>
       <p className="Counter">
-        {counter}
+        {filteredCourses.length}
         &nbsp;results
         <br />
         Last database update: 7.7.2019
