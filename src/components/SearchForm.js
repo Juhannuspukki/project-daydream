@@ -28,10 +28,10 @@ class Settings extends Component {
       searchString,
     } = this.props;
 
-    const { dropdownOpen, years} = this.state;
+    const { dropdownOpen, years } = this.state;
 
     return (
-      <Form>
+      <Form onSubmit={(e) => { e.preventDefault(); }}>
         <FormGroup>
           <InputGroup>
             <Input
