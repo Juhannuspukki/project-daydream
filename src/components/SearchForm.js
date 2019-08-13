@@ -46,9 +46,9 @@ class Settings extends Component {
                 {currentYear}
               </DropdownToggle>
               <DropdownMenu>
-                {years.map((year, index) => (
+                {years.map(year => (
                   <DropdownItem
-                    key={index}
+                    key={year}
                     onClick={() => { loadYear(year); changeYear(year); }}
                   >
                     {year}
