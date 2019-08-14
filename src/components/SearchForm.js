@@ -32,7 +32,7 @@ class Settings extends Component {
     const { dropdownOpen, years } = this.state;
 
     return (
-      <Form onSubmit={(e) => { e.preventDefault(); return null; }}>
+      <Form onSubmit={(e) => { e.preventDefault(); }}>
         <FormGroup>
           <InputGroup>
             <Input
