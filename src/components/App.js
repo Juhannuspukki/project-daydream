@@ -11,6 +11,7 @@ import FacultyGraphs from './FacultyGraphs';
 import Course from './Course';
 import initial from '../kaiku.json';
 import NavBar from './NavBar';
+import WrongBrowser from './WrongBrowser';
 
 const routeChange = (history, path) => {
   history.push(path);
@@ -130,55 +131,71 @@ class App extends Component {
 
   render() {
     const { data, settings } = this.state;
+
+    // Internet Explorer 11
+    const isIE = /Trident|MSIE/.test(window.navigator.userAgent);
+
+    if (isIE) {
+      alert("is ie!");
+    }
+
+    // Edge 20+
+    const isEdge = !isIE && !!window.StyleMedia;
+
     return (
-      <main>
-        <Helmet>
-          <title>Course-O-Meter</title>
-          <meta
-            name="description"
-            content="Course-O-Meter gives new grades to Tampere University courses and lets you
-            compare them with each other. An invaluable tool for planning your studies!"
-          />
-          <meta
-            property="og:title"
-            content="The incredible Course-O-Meter"
-          />
-          <meta
-            property="og:url"
-            content="https://course-o-meter.com"
-          />
-          <meta
-            property="og:description"
-            content="Course-O-Meter gives new grades to Tampere University courses and lets you
-            compare them with each other. An invaluable tool for planning your studies!"
-          />
-        </Helmet>
-        <NavBar />
-        <Switch>
-          <Route
-            path="/"
-            exact
-            render={
-            props => (
-              <ListComponent
-                {...props}
-                settings={settings}
-                courses={data}
-                onSort={this.onSort}
-                loadYear={this.loadYear}
-                handleSearch={this.handleSearch}
-                handleClick={this.handleClick}
-                changeYear={this.changeYear}
-                routeChange={routeChange}
+      (isEdge || isIE) ? <WrongBrowser />
+        : (
+          <>
+            <Helmet>
+              <title>Course-O-Meter</title>
+              <meta
+                name="description"
+                content="Course-O-Meter gives new grades to Tampere University courses and lets you
+              compare them with each other. An invaluable tool for planning your studies!"
               />
-            )}
-          />
-          <Route path="/wtf" exact component={TextComponent} />
-          <Route path="/faculty-o-meter" exact component={FacultyGraphs} />
-          <Route path="/courses/:id" exact component={Course} />
-        </Switch>
-        <Footer />
-      </main>
+              <meta
+                property="og:title"
+                content="The incredible Course-O-Meter"
+              />
+              <meta
+                property="og:url"
+                content="https://course-o-meter.com"
+              />
+              <meta
+                property="og:description"
+                content="Course-O-Meter gives new grades to Tampere University courses and lets you
+              compare them with each other. An invaluable tool for planning your studies!"
+              />
+            </Helmet>
+            <NavBar />
+            <main>
+              <Switch>
+                <Route
+                  path="/"
+                  exact
+                  render={
+                    props => (
+                      <ListComponent
+                        {...props}
+                        settings={settings}
+                        courses={data}
+                        onSort={this.onSort}
+                        loadYear={this.loadYear}
+                        handleSearch={this.handleSearch}
+                        handleClick={this.handleClick}
+                        changeYear={this.changeYear}
+                        routeChange={routeChange}
+                      />
+                    )}
+                />
+                <Route path="/wtf" exact component={TextComponent} />
+                <Route path="/faculty-o-meter" exact component={FacultyGraphs} />
+                <Route path="/courses/:id" exact component={Course} />
+              </Switch>
+            </main>
+            <Footer />
+        </>
+        )
     );
   }
 }
