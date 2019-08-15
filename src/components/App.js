@@ -132,6 +132,18 @@ class App extends Component {
   render() {
     const { data, settings } = this.state;
 
+    const courses = data.filter((course) => {
+      if (
+        (
+          (settings.showAll === true)
+          || (settings.showAll === false && 'letter' in course)
+        )
+        && (course.code.toLowerCase().includes(settings.filter)
+        || course.name.toLowerCase().includes(settings.filter))) {
+        return course;
+      }
+    });
+
     // Internet Explorer 11
     const isIE = /Trident|MSIE/.test(window.navigator.userAgent);
 
@@ -174,7 +186,7 @@ class App extends Component {
                       <ListComponent
                         {...props}
                         settings={settings}
-                        courses={data}
+                        courses={courses}
                         onSort={this.onSort}
                         loadYear={this.loadYear}
                         handleSearch={this.handleSearch}
@@ -186,11 +198,21 @@ class App extends Component {
                 />
                 <Route path="/wtf" exact component={TextComponent} />
                 <Route path="/faculty-o-meter" exact component={FacultyGraphs} />
-                <Route path="/courses/:id" exact component={Course} />
+                <Route
+                  path="/courses/:id"
+                  exact
+                  render={
+                    props => (
+                      <Course
+                        {...props}
+                        courseList={courses}
+                      />
+                    )}
+                />
               </Switch>
             </main>
             <Footer />
-        </>
+          </>
         )
     );
   }

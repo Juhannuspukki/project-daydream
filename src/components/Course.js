@@ -1,5 +1,4 @@
-import React from 'react';
-import _ from 'underscore';
+import React, { useEffect } from 'react';
 import {
   LineChart,
   Line,
@@ -17,8 +16,19 @@ import { Link } from 'react-router-dom';
 import kaiku from '../kaiku.json';
 import CustomizedXAxisTick from './CustomTick';
 
+const getNext = (courseList, id) => {
+  const nextIndex = courseList.findIndex(element => element.id === id) + 1;
+  return nextIndex >= courseList.length ? null : courseList[nextIndex].id;
+};
+
+const getPrevious = (courseList, id) => {
+  const prevIndex = courseList.findIndex(element => element.id === id) - 1;
+  return prevIndex < 0 ? null : courseList[prevIndex].id;
+};
+
 const processData = (props) => {
-  const course = _.findWhere(kaiku, { id: props.match.params.id });
+  const { courseList } = props;
+  const course = kaiku.find(element => element.id === props.match.params.id);
   const { name, id, period, link } = course;
 
   const chartData = [];
@@ -27,7 +37,10 @@ const processData = (props) => {
   const letters = [];
   const numbers = [];
 
-  _.map(_.findWhere(kaiku, course).instances, (instance) => {
+  const nextCourseId = getNext(courseList, id);
+  const prevCourseId = getPrevious(courseList, id);
+
+  course.instances.map((instance) => {
     chartData.push(
       {
         year: instance.year,
@@ -47,11 +60,15 @@ const processData = (props) => {
     }
 
     numbers.push({ work: instance.work, year: instance.year });
+
+    return null;
   });
 
   codes.reverse();
 
   return ({
+    nextCourseId,
+    prevCourseId,
     name,
     id,
     period,
@@ -64,8 +81,20 @@ const processData = (props) => {
   });
 };
 
+const downHandler = ({ key }) => {
+  if (key === 'ArrowDown' && document.getElementById('nextLink') !== null) {
+    document.getElementById('nextLink').click();
+  } else if (key === 'ArrowUp' && document.getElementById('prevLink') !== null) {
+    document.getElementById('prevLink').click();
+  } else if (key === 'ArrowLeft') {
+    document.getElementById('backLink').click();
+  }
+};
+
 const Course = (props) => {
   const {
+    nextCourseId,
+    prevCourseId,
     name,
     id,
     period,
@@ -76,6 +105,15 @@ const Course = (props) => {
     letters,
     numbers,
   } = processData(props);
+
+  useEffect(() => {
+    document.addEventListener('keydown', downHandler);
+    // Remove event listeners on cleanup
+    return () => {
+      document.removeEventListener('keydown', downHandler);
+    };
+  }, []); // Empty array ensures that effect is only run on mount and unmount
+
 
   return (
     <Container>
@@ -107,6 +145,8 @@ const Course = (props) => {
         </h3>
         <p className="Old-Course-Codes">{(codes.length > 1) && (`Previously known as ${(codes.slice(1).join(', '))}`)}</p>
       </div>
+      {nextCourseId !== null && <Link id="nextLink" to={`/courses/${nextCourseId}`} />}
+      {prevCourseId !== null && <Link id="prevLink" to={`/courses/${prevCourseId}`} />}
       <Row>
         <Col md="6" className="Course-Description-Box">
           <p className="Course-Grade-Pre-Title">Latest grade</p>
@@ -189,7 +229,7 @@ const Course = (props) => {
       </Row>
       <Row>
         <Col md="6" className="Bottom-Links">
-          <Link to="/">← Back to course list</Link>
+          <Link id="backLink" to="/">← Back to course list</Link>
         </Col>
         {link
           && (

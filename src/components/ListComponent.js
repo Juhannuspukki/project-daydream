@@ -17,18 +17,6 @@ const ListComponent = (props) => {
     },
   } = props;
 
-  const filteredCourses = courses.filter((course) => {
-    if (
-      (
-        (showAll === true)
-        || (showAll === false && 'letter' in course)
-      )
-      && (course.code.toLowerCase().includes(filter)
-      || course.name.toLowerCase().includes(filter))) {
-      return course;
-    }
-  });
-
   return (
     <Container>
       <SearchForm
@@ -76,7 +64,7 @@ const ListComponent = (props) => {
           </tr>
         </thead>
         <tbody>
-          {filteredCourses.map(course => (
+          {courses.map(course => (
             <tr
               key={course.id}
               data-item={course}
@@ -109,7 +97,7 @@ const ListComponent = (props) => {
         </tbody>
       </table>
       <p className="Counter">
-        {filteredCourses.length}
+        {courses.length}
         &nbsp;results
         <br />
         Last database update: 7.7.2019

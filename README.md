@@ -23,8 +23,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Adjusted description
 
 ## 1.2.3
-- Adjust course filtering
+- Adjust code taking care of course filtering
 - Disable enter key
 
 ## 1.2.4
 - Filter out MS fanboys
+
+## 1.2.5
+- Add keyboard support for moving in detail view
