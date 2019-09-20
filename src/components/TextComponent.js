@@ -87,6 +87,7 @@ const TextComponent = () => (
       code prefix were combined for use in the Faculty-O-Meter. All courses with 21 or more
       participants are included in Faculty-O-Meter.
     </p>
+    <h2 className="Text-Title">@2 ei, kyllä tää on ihan real thing ;)</h2>
   </Container>
 );
 
