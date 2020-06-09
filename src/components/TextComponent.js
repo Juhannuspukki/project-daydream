@@ -45,17 +45,59 @@ const TextComponent = () => (
     <h2 className="Text-Title">Grading</h2>
     <p>
       As long as there is sufficient data, this calculator grades every course the same way they are
-      graded in YO-exams. Any deviations are due to rounding.
+      graded in Finnish matriculation exams (YO-exams). Any deviations are due to rounding. From
+      best to worst, the grades are:
     </p>
-    <ul>
-      <li>L: best 5%</li>
-      <li>E: following 15%</li>
-      <li>M: following 20%</li>
-      <li>C: following 24%</li>
-      <li>B: following 20%</li>
-      <li>A: following 11%</li>
-      <li>I: the rest</li>
-    </ul>
+    <table className="Grade-Table">
+      <thead>
+        <tr>
+          <th>Grade</th>
+          <th>Full name of grade</th>
+          <th>Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>L</td>
+          <td>Laudatur</td>
+          <td>Best 5%</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>Eximia Cum Laude Approbatur</td>
+          <td>Following 15%</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>Magna Cum Laude Approbatur</td>
+          <td>Following 20%</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>Cum Laude Approbatur</td>
+          <td>Following 24%</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>Lubenter Approbatur</td>
+          <td>Following 20%</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>Approbatur</td>
+          <td>Following 11%</td>
+        </tr>
+        <tr>
+          <td>I</td>
+          <td>Improbatur</td>
+          <td>The rest</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      For more information concerning this type of grading, see the related article
+      on <a className="Aamulehti" href="https://en.wikipedia.org/wiki/Matriculation_exam_(Finland)#Scoring">Wikipedia.</a>
+    </p>
     <p>
       The "work" grade represents the effort/credits ratio. If everyone on the course though that
       it was fine, the grade is 0. If everyone chose option "too much work per credit" the
@@ -87,7 +129,6 @@ const TextComponent = () => (
       code prefix were combined for use in the Faculty-O-Meter. All courses with 21 or more
       participants are included in Faculty-O-Meter.
     </p>
-    <h2 className="Text-Title">@2 ei, kyllä tää on ihan real thing ;)</h2>
   </Container>
 );
 

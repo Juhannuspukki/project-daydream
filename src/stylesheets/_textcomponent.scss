@@ -9,6 +9,13 @@
   margin: 2rem 0 1rem 0;
 }
 
+.Grade-Table {
+  margin: 4rem auto;
+  th, td {
+    cursor: default;
+  }
+}
+
 .Aamulehti {
   color: $colorWhite;
   text-decoration: underline;
