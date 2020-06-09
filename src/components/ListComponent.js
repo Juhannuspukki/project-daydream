@@ -100,7 +100,7 @@ const ListComponent = (props) => {
         {courses.length}
         &nbsp;results
         <br />
-        Last database update: 7.7.2019
+        Last database update: 9.6.2020
       </p>
     </Container>
   );
