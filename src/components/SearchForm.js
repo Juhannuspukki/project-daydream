@@ -6,7 +6,7 @@ class Settings extends Component {
     super(props);
     this.state = {
       dropdownOpen: false,
-      years: ['18-19', '17-18', '16-17', '15-16', '14-15'],
+      years: ['19-20', '18-19', '17-18', '16-17', '15-16', '14-15'],
     };
 
     this.toggle = this.toggle.bind(this);

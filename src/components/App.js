@@ -26,7 +26,7 @@ class App extends Component {
         filter: '',
         showAll: false,
         showAbsolutes: false,
-        year: '18-19',
+        year: '19-20',
         sort: {
           column: 'grade',
           direction: 'desc',
