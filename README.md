@@ -39,3 +39,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Hide graphs if there is only one datapoint
 - Remove keyboard support for moving in detail view
 - Ditch underscore
+
+## 1.3.1
+- Dynamically load data
