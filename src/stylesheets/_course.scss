@@ -1,7 +1,6 @@
 .Course-Description-Box {
   color: $colorWhite;
   text-align: center;
-  min-height: 300px;
   .Course-Grade-Pre-Title {
     margin: 0;
   }
@@ -9,11 +8,6 @@
     font-family: 'Righteous', cursive;
     font-size: 6rem;
     margin: 1rem 0;
-  }
-  .Course-Grades-Previous {
-    font-family: 'Righteous', cursive;
-    font-size: 2rem;
-    margin: 1rem 0 2rem 0;
   }
 }
 
@@ -67,13 +61,46 @@
 
 @media (max-width: 767px) {
   .Course-Name-Box {
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
-  .Course-Description-Box, .Chart {
-    min-height: 360px;
+  .Course-Description-Box {
+    margin-bottom: 2rem;
   }
 }
 
+.Course-Table-Container {
+  overflow-x: auto;
+  .Course-Table {
+    width: 100%;
+    margin-bottom: 4rem;
+    color: $colorWhite;
+    tbody {
+      tr {
+        background-color: $colorBlueDark;
+        &:hover {
+          background-color: $colorBlueHighLight;
+        }
+      }
+    }
+    tr {
+      border-bottom: 1px solid $colorWhite;
+    }
+    .Pointer {
+      td {
+        cursor: pointer;
+      }
+    }
+    td, th {
+      cursor: default;
+    }
+    .Res {
+      text-align: center;
+    }
+    .Response-Content {
+      background-color: $colorBlueLight;
+    }
+  }
+}
 
 .Light {
   .Course-Description-Box,
@@ -97,5 +124,24 @@
 
   .Graph-Text {
     fill: $colorBlueDark;
+  }
+
+  .Course-Table-Container {
+    .Course-Table {
+      color: $colorBlueDark;
+      tbody > tr {
+        background-color: $colorWhite;
+        border-bottom: 1px solid $colorBlueDark;
+        &:hover {
+          background-color: $colorBlueHighLight;
+        }
+        .Response-Content {
+          background-color: $colorWhite;
+          &:hover {
+            color: $colorBlueLight;
+          }
+        }
+      }
+    }
   }
 }

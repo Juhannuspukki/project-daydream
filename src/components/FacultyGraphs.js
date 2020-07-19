@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -8,30 +8,21 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-} from 'recharts';
-import {
-  Container,
-  Col,
-  Row,
-  CustomInput,
-  Form,
-  FormGroup,
-} from 'reactstrap';
-import generate from 'string-to-color';
-import { Helmet } from 'react-helmet';
-import initial from '../faculties.json';
-import CustomizedXAxisTick from './CustomTick';
+} from "recharts";
+import { Container, Col, Row, CustomInput, Form, FormGroup } from "reactstrap";
+import generate from "string-to-color";
+import { Helmet } from "react-helmet";
+import initial from "../faculties.json";
+import CustomizedXAxisTick from "./CustomTick";
 
 class FacultyGraphs extends Component {
   constructor(props) {
     super(props);
 
-    const visibleFaculties = initial.reduce(
-      (accumulator, currentValue) => {
-        accumulator.push(currentValue.name);
-        return accumulator;
-      }, [],
-    );
+    const visibleFaculties = initial.reduce((accumulator, currentValue) => {
+      accumulator.push(currentValue.name);
+      return accumulator;
+    }, []);
 
     this.state = {
       visibleFaculties,
@@ -44,12 +35,14 @@ class FacultyGraphs extends Component {
     const { visibleFaculties } = this.state;
 
     if (visibleFaculties.includes(name)) {
-      const newFaculties = visibleFaculties.filter(faculty => faculty !== name);
+      const newFaculties = visibleFaculties.filter(
+        (faculty) => faculty !== name
+      );
       this.setState({
         visibleFaculties: newFaculties,
       });
     } else {
-      this.setState(prevState => ({
+      this.setState((prevState) => ({
         visibleFaculties: [...prevState.visibleFaculties, name],
       }));
     }
@@ -58,7 +51,9 @@ class FacultyGraphs extends Component {
   render() {
     const { visibleFaculties } = this.state;
 
-    const faculties = initial.filter(faculty => visibleFaculties.includes(faculty.name));
+    const faculties = initial.filter((faculty) =>
+      visibleFaculties.includes(faculty.name)
+    );
 
     return (
       <Container>
@@ -68,10 +63,7 @@ class FacultyGraphs extends Component {
             name="description"
             content="What is the hottest faculty of the campus? Use this tool to find out."
           />
-          <meta
-            property="og:title"
-            content="The astounding Faculty-O-Meter"
-          />
+          <meta property="og:title" content="The astounding Faculty-O-Meter" />
           <meta
             property="og:url"
             content="https://course-o-meter.com/faculty-o-meter"
@@ -84,7 +76,7 @@ class FacultyGraphs extends Component {
         <h2 className="Title">Add to comparison</h2>
         <Form className="Form">
           <Row form>
-            {initial.map(s => (
+            {initial.map((s) => (
               <Col md={3} sm={4} xs={6} key={s.name}>
                 <FormGroup className="Form-Group">
                   <CustomInput
@@ -101,7 +93,7 @@ class FacultyGraphs extends Component {
             ))}
           </Row>
         </Form>
-        <div className={(visibleFaculties.length === 0 ? 'Hidden' : 'undefined')}>
+        <div className={visibleFaculties.length === 0 ? "Hidden" : "undefined"}>
           <h2 className="Title">Average Grade</h2>
 
           <ResponsiveContainer width="100%" height={500}>
@@ -126,7 +118,7 @@ class FacultyGraphs extends Component {
               <YAxis dataKey="grade" yAxisId="left" domain={[3.1, 4.1]} />
               <Tooltip />
               <Legend />
-              {faculties.map(s => (
+              {faculties.map((s) => (
                 <Line
                   yAxisId="left"
                   type="monotone"
@@ -135,7 +127,7 @@ class FacultyGraphs extends Component {
                   data={s.data}
                   name={s.name}
                   key={s.name}
-                  style={{ color: '#fff' }}
+                  style={{ color: "#fff" }}
                 />
               ))}
             </LineChart>
@@ -163,7 +155,7 @@ class FacultyGraphs extends Component {
               <YAxis dataKey="work" yAxisId="left" />
               <Tooltip />
               <Legend />
-              {faculties.map(s => (
+              {faculties.map((s) => (
                 <Line
                   yAxisId="left"
                   type="monotone"
@@ -172,7 +164,7 @@ class FacultyGraphs extends Component {
                   data={s.data}
                   name={s.name}
                   key={s.name}
-                  style={{ color: '#fff' }}
+                  style={{ color: "#fff" }}
                 />
               ))}
             </LineChart>
@@ -200,7 +192,7 @@ class FacultyGraphs extends Component {
               <YAxis dataKey="sampleSize" yAxisId="left" />
               <Tooltip />
               <Legend />
-              {faculties.map(s => (
+              {faculties.map((s) => (
                 <Line
                   yAxisId="left"
                   type="monotone"
@@ -209,7 +201,7 @@ class FacultyGraphs extends Component {
                   data={s.data}
                   name={s.name}
                   key={s.name}
-                  style={{ color: '#fff' }}
+                  style={{ color: "#fff" }}
                 />
               ))}
             </LineChart>
@@ -237,7 +229,7 @@ class FacultyGraphs extends Component {
               <YAxis dataKey="courseCount" yAxisId="left" />
               <Tooltip />
               <Legend />
-              {faculties.map(s => (
+              {faculties.map((s) => (
                 <Line
                   yAxisId="left"
                   type="monotone"
@@ -246,7 +238,7 @@ class FacultyGraphs extends Component {
                   data={s.data}
                   name={s.name}
                   key={s.name}
-                  style={{ color: '#fff' }}
+                  style={{ color: "#fff" }}
                 />
               ))}
             </LineChart>

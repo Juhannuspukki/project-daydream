@@ -1,7 +1,13 @@
-import React, { useEffect } from 'react';
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import ResponseRow from "./ResponseRow";
+import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 import {
   LineChart,
   Line,
+  Bar,
+  BarChart,
   CartesianGrid,
   XAxis,
   YAxis,
@@ -9,111 +15,44 @@ import {
   Legend,
   ResponsiveContainer,
   ReferenceLine,
-} from 'recharts';
-import { Container, Row, Col } from 'reactstrap';
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
-import kaiku from '../kaiku.json';
-import CustomizedXAxisTick from './CustomTick';
+} from "recharts";
+import CustomizedXAxisTick from "./CustomTick";
 
-const getNext = (courseList, id) => {
-  const nextIndex = courseList.findIndex(element => element.id === id) + 1;
-  return nextIndex >= courseList.length ? null : courseList[nextIndex].id;
-};
-
-const getPrevious = (courseList, id) => {
-  const prevIndex = courseList.findIndex(element => element.id === id) - 1;
-  return prevIndex < 0 ? null : courseList[prevIndex].id;
-};
-
-const processData = (props) => {
-  const { courseList } = props;
-  const course = kaiku.find(element => element.id === props.match.params.id);
-  const { name, id, period, link } = course;
-
-  const chartData = [];
-  const sampleData = [];
-  const codes = [];
-  const letters = [];
-  const numbers = [];
-
-  const nextCourseId = getNext(courseList, id);
-  const prevCourseId = getPrevious(courseList, id);
-
-  course.instances.map((instance) => {
-    chartData.push(
-      {
-        year: instance.year,
-        grade: instance.grade,
-        work: instance.work,
-      },
-    );
-
-    if (codes.indexOf(instance.code) === -1) {
-      codes.push(instance.code);
-    }
-
-    sampleData.push({ year: instance.year, sampleSize: instance.sampleSize });
-
-    if (instance.letter) {
-      letters.push({ letter: instance.letter, year: instance.year });
-    }
-
-    numbers.push({ work: instance.work, year: instance.year });
-
-    return null;
-  });
-
-  codes.reverse();
-
-  return ({
-    nextCourseId,
-    prevCourseId,
-    name,
-    id,
-    period,
-    link,
-    chartData,
-    sampleData,
-    codes,
-    letters,
-    numbers,
-  });
-};
-
-const downHandler = ({ key }) => {
-  if (key === 'ArrowDown' && document.getElementById('nextLink') !== null) {
-    document.getElementById('nextLink').click();
-  } else if (key === 'ArrowUp' && document.getElementById('prevLink') !== null) {
-    document.getElementById('prevLink').click();
-  } else if (key === 'ArrowLeft') {
-    document.getElementById('backLink').click();
-  }
-};
+import kaiku from "../kaiku.json";
 
 const Course = (props) => {
   const {
-    nextCourseId,
-    prevCourseId,
-    name,
-    id,
-    period,
-    link,
-    chartData,
-    codes,
-    sampleData,
-    letters,
-    numbers,
-  } = processData(props);
+    match: {
+      params: { id },
+    },
+  } = props;
+  const { name, instances } = kaiku.find((element) => element.id === id);
 
-  useEffect(() => {
-    document.addEventListener('keydown', downHandler);
-    // Remove event listeners on cleanup
-    return () => {
-      document.removeEventListener('keydown', downHandler);
-    };
-  }, []); // Empty array ensures that effect is only run on mount and unmount
+  const codes = [...new Set(instances.map((instance) => instance.code))];
+  const letters = instances.map(
+    (instance) => typeof instance.letter !== "undefined" && instance.letter
+  );
 
+  const chartData = instances.map((instance) => ({
+    time: `${instance.year}\n${instance.period}`,
+    grade: instance.grade,
+    work: instance.work,
+  }));
+
+  const sampleSizeData = instances.map((instance) => ({
+    time: `${instance.year}\n${instance.period}`,
+    sampleSize: instance.sampleSize,
+  }));
+
+  const responses = instances.map(
+    (instance) =>
+      typeof instance.response !== "undefined" && {
+        time: `${instance.year} ${instance.period}`,
+        response: instance.response,
+      }
+  );
+
+  responses.reverse();
 
   return (
     <Container>
@@ -139,111 +78,135 @@ const Course = (props) => {
       </Helmet>
       <div className="Course-Name-Box">
         <h2 className="Course-Name">{`${name}`}</h2>
-        <p className="Course-Period">{`${period.includes('-') ? 'Periods' : 'Period'} ${period}`}</p>
-        <h3 className="Course-Codes">
-          {codes[0]}
-        </h3>
-        <p className="Old-Course-Codes">{(codes.length > 1) && (`Previously known as ${(codes.slice(1).join(', '))}`)}</p>
+        <h3 className="Course-Codes">{codes[0]}</h3>
+        <p className="Old-Course-Codes">
+          {codes.length > 1 &&
+            `Previously known as ${codes.slice(1).join(", ")}`}
+        </p>
       </div>
-      {nextCourseId !== null && <Link id="nextLink" to={`/courses/${nextCourseId}`} />}
-      {prevCourseId !== null && <Link id="prevLink" to={`/courses/${prevCourseId}`} />}
+      {/*nextCourseId !== null && <Link id="nextLink" to={`/courses/${nextCourseId}`} />}
+      {prevCourseId !== null && <Link id="prevLink" to={`/courses/${prevCourseId}`} />*/}
       <Row>
         <Col md="6" className="Course-Description-Box">
           <p className="Course-Grade-Pre-Title">Latest grade</p>
           <h3 className="Course-Grades">
-            { (letters.length > 0) ? letters[letters.length - 1].letter : '-' }
+            {letters[0] ? letters[letters.length - 1] : "-"}
           </h3>
-          <p className="Course-Grades-Pre-Title">Previous grades</p>
-          <p>
-            { (letters.length > 1)
-              ? letters.slice(0, -1).map(s => (
-                <React.Fragment key={s.year}>
-                  <span className="Course-Grades-Previous">
-                    {s.letter}
-                  </span>
-                  <sub>
-                    {`(${s.year}) `}
-                    &nbsp;
-                  </sub>
-                </React.Fragment>
-              )) : '-'}
-          </p>
         </Col>
         <Col md="6" className="Course-Description-Box">
-          <p className="Course-Grade-Pre-Title">Latest work assesment</p>
+          <p className="Course-Grade-Pre-Title">Latest work assessment</p>
           <h3 className="Course-Grades">
-            {numbers[numbers.length - 1].work > 0 && '+'}
-            { numbers[numbers.length - 1].work }
+            {chartData[chartData.length - 1].work > 0 && "+"}
+            {chartData[chartData.length - 1].work}%
           </h3>
-          <p className="Course-Grades-Pre-Title">Previous work assessments</p>
-          <p>
-            { (numbers.length > 1)
-              ? numbers.slice(0, -1).map(s => (
-                <React.Fragment key={s.year}>
-                  <span className="Course-Grades-Previous">
-                    {s.work > 0 && '+'}
-                    {s.work}
-                  </span>
-                  <sub>
-                    {`(${s.year}) `}
-                  </sub>
-                </React.Fragment>
-              )) : '-'}
-          </p>
         </Col>
       </Row>
-      <Row>
+      <Row className={instances.length === 1 ? "Hidden" : undefined}>
         <Col md="6" className="Chart">
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={chartData} syncId="charts">
               <CartesianGrid strokeDasharray="10 10" />
-              <XAxis dataKey="year" height={50} tick={<CustomizedXAxisTick />} />
+              <XAxis
+                dataKey="time"
+                height={70}
+                tick={<CustomizedXAxisTick />}
+              />
+              <YAxis
+                dataKey="work"
+                yAxisId="right"
+                orientation="right"
+                domain={[-50, 50]}
+              />
               <YAxis dataKey="grade" yAxisId="left" domain={[2.5, 4.5]} />
-              <YAxis dataKey="work" yAxisId="right" orientation="right" domain={[-50, 50]} />
               <Tooltip />
-              <Legend />
-              <Line yAxisId="left" type="monotone" dataKey="grade" stroke="#355f8c" name="Grade" style={{ color: '#fff' }} />
-              <Line yAxisId="right" type="monotone" dataKey="work" stroke="#5f8c35" name="Work" />
+              <Legend verticalAlign="top" height={36} />
+              <Line
+                yAxisId="left"
+                type="monotone"
+                dataKey="grade"
+                stroke="#355f8c"
+                name="Grade"
+                style={{ color: "#fff" }}
+              />
+              <Line
+                yAxisId="right"
+                type="monotone"
+                dataKey="work"
+                stroke="#5f8c35"
+                name="Work"
+              />
             </LineChart>
           </ResponsiveContainer>
         </Col>
         <Col md="6" className="Chart">
           <ResponsiveContainer width="100%" height={300}>
-            <LineChart
-              data={sampleData}
+            <BarChart
+              data={sampleSizeData}
               margin={{
-                top: 0, right: 60, left: 0, bottom: 0,
+                top: 0,
+                right: 60,
+                left: 0,
+                bottom: 0,
               }}
               syncId="charts"
             >
               <CartesianGrid strokeDasharray="10 10" />
-              <XAxis dataKey="year" height={50} tick={<CustomizedXAxisTick />} />
+              <XAxis
+                dataKey="time"
+                height={70}
+                tick={<CustomizedXAxisTick />}
+              />
               <YAxis dataKey="sampleSize" yAxisId="left" />
               <Tooltip />
-              <Legend />
+              <Legend verticalAlign="top" height={36} />
               <ReferenceLine yAxisId="left" y={21} stroke="red" />
-              <Line yAxisId="left" type="monotone" dataKey="sampleSize" stroke="#8c355f" name="Sample Size" style={{ color: '#fff' }} />
-            </LineChart>
+              <Bar
+                yAxisId="left"
+                type="monotone"
+                dataKey="sampleSize"
+                fill="#8c355f"
+                name="Sample Size"
+                style={{ color: "#fff" }}
+              />
+            </BarChart>
           </ResponsiveContainer>
         </Col>
       </Row>
+      <div className="Course-Table-Container">
+        <table className="Course-Table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Period</th>
+              <th>Samples</th>
+              <th>Work</th>
+              <th>Grade</th>
+              <th>Relative Grade</th>
+              <th>Response</th>
+            </tr>
+          </thead>
+          <tbody>
+            {instances
+              .slice(0)
+              .reverse()
+              .map((instance) => (
+                <ResponseRow
+                  key={instance.year + instance.period + instance.grade}
+                  instance={instance}
+                />
+              ))}
+          </tbody>
+        </table>
+      </div>
       <Row>
         <Col md="6" className="Bottom-Links">
-          <Link id="backLink" to="/">← Back to course list</Link>
+          <Link id="backLink" to="/">
+            ← Back to course list
+          </Link>
         </Col>
-        {link
-          && (
-          <Col md="6" className="Bottom-Links">
-            <a href={`https://poprock.tut.fi/group/pop/opas/opintojaksot/-/opintojakso/2019-2020/${link}`} target="_blank" rel="noopener noreferrer">
-            View on POP →
-            </a>
-          </Col>
-          )
-        }
       </Row>
     </Container>
   );
 };
-
 
 export default Course;

@@ -1,12 +1,21 @@
-import React, { Component } from 'react';
-import { Form, FormGroup, InputGroup, InputGroupButtonDropdown, DropdownItem, DropdownToggle, DropdownMenu, Input } from 'reactstrap';
+import React, { Component } from "react";
+import {
+  Form,
+  FormGroup,
+  InputGroup,
+  InputGroupButtonDropdown,
+  DropdownItem,
+  DropdownToggle,
+  DropdownMenu,
+  Input,
+} from "reactstrap";
 
 class Settings extends Component {
   constructor(props) {
     super(props);
     this.state = {
       dropdownOpen: false,
-      years: ['19-20', '18-19', '17-18', '16-17', '15-16', '14-15'],
+      years: ["19-20", "18-19", "17-18", "16-17", "15-16", "14-15"],
     };
 
     this.toggle = this.toggle.bind(this);
@@ -20,7 +29,6 @@ class Settings extends Component {
   }
 
   render() {
-
     const {
       loadYear,
       currentYear,
@@ -32,7 +40,11 @@ class Settings extends Component {
     const { dropdownOpen, years } = this.state;
 
     return (
-      <Form onSubmit={(e) => { e.preventDefault(); }}>
+      <Form
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+      >
         <FormGroup>
           <InputGroup>
             <Input
@@ -41,17 +53,23 @@ class Settings extends Component {
               placeholder="Search..."
               value={searchString}
               onChange={handleSearch}
-              onKeyDown={e => e.keyCode === 13 && e.target.blur()}
+              onKeyDown={(e) => e.keyCode === 13 && e.target.blur()}
             />
-            <InputGroupButtonDropdown className="YearButton" addonType="append" isOpen={dropdownOpen} toggle={this.toggle}>
-              <DropdownToggle caret>
-                {currentYear}
-              </DropdownToggle>
+            <InputGroupButtonDropdown
+              className="YearButton"
+              addonType="append"
+              isOpen={dropdownOpen}
+              toggle={this.toggle}
+            >
+              <DropdownToggle caret>{currentYear}</DropdownToggle>
               <DropdownMenu>
-                {years.map(year => (
+                {years.map((year) => (
                   <DropdownItem
                     key={year}
-                    onClick={() => { loadYear(year); changeYear(year); }}
+                    onClick={() => {
+                      loadYear(year);
+                      changeYear(year);
+                    }}
                   >
                     {year}
                   </DropdownItem>

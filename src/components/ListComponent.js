@@ -1,7 +1,7 @@
-import React from 'react';
-import { Container } from 'reactstrap';
-import SearchForm from './SearchForm';
-import Settings from './Settings';
+import React from "react";
+import { Container } from "reactstrap";
+import SearchForm from "./SearchForm";
+import Settings from "./Settings";
 
 const ListComponent = (props) => {
   const {
@@ -13,7 +13,12 @@ const ListComponent = (props) => {
     changeYear,
     routeChange,
     courses,
-    settings: {showAll, filter, year, showAbsolutes, sort: { column, direction },
+    settings: {
+      showAll,
+      filter,
+      year,
+      showAbsolutes,
+      sort: { column, direction },
     },
   } = props;
 
@@ -34,42 +39,32 @@ const ListComponent = (props) => {
       <table className="List-Component">
         <thead>
           <tr>
-            <th className="Code" onClick={() => onSort('code')}>
+            <th className="Code" onClick={() => onSort("code")}>
               Code&nbsp;
-              {
-                column === 'code' && (direction === 'asc' ? '↑' : '↓')
-              }
+              {column === "code" && (direction === "asc" ? "↑" : "↓")}
             </th>
-            <th className="Name" onClick={() => onSort('name')}>
+            <th className="Name" onClick={() => onSort("name")}>
               Name&nbsp;
-              {
-                column === 'name' && (direction === 'asc' ? '↑' : '↓')
-              }
+              {column === "name" && (direction === "asc" ? "↑" : "↓")}
             </th>
-            <th className="Period">
-              Per.
-            </th>
-            <th className="Work" onClick={() => onSort('work')}>
+            <th className="Period">Per.</th>
+            <th className="Work" onClick={() => onSort("work")}>
               Work&nbsp;
-              {
-                column === 'work' && (direction === 'asc' ? '↑' : '↓')
-              }
+              {column === "work" && (direction === "asc" ? "↑" : "↓")}
             </th>
-            <th className="Rank" onClick={() => onSort('grade')}>
+            <th className="Rank" onClick={() => onSort("grade")}>
               #&nbsp;
-              {
-                column === 'grade' && (direction === 'asc' ? '↑' : '↓')
-              }
+              {column === "grade" && (direction === "asc" ? "↑" : "↓")}
             </th>
           </tr>
         </thead>
         <tbody>
-          {courses.map(course => (
+          {courses.map((course) => (
             <tr
               key={course.id}
               data-item={course}
               onClick={() => {
-                routeChange(history, `/courses/${course.id}`);
+                routeChange(history, `/courses/${course.link}`);
               }}
             >
               <td className="Code" data-title="Code">
@@ -82,15 +77,13 @@ const ListComponent = (props) => {
                 {course.period}
               </td>
               <td className="Work" data-title="Work">
-                {(course.work > 0) && '+'}
-                {course.work}
-                %
+                {course.work > 0 && "+"}
+                {course.work}%
               </td>
-              <td
-                className="Rank"
-                data-title="Rank"
-              >
-                {showAbsolutes ? course.grade : (('letter' in course) && course.letter)}
+              <td className="Rank" data-title="Rank">
+                {showAbsolutes
+                  ? course.grade
+                  : "letter" in course && course.letter}
               </td>
             </tr>
           ))}

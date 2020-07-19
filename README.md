@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Added a notice for a new db dump being added
 - New and bigger "?" button because people have trouble finding it
 - Slugs created on backend and used as public links
-- Courses with the same grade now automatically have a same letter as well 
+- Courses with the same grade now automatically have a same letter as well
 - Got rid of hash router
 - Fixed issues caused by accessing non-frontpage directly
 - Now using react-helmet for og:stuff
@@ -31,3 +31,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 1.2.5
 - Add keyboard support for moving in detail view
+
+## 1.3.0
+- Add responses to feedback
+- Add data tables
+- Add picture of the badge
+- Hide graphs if there is only one datapoint
+- Remove keyboard support for moving in detail view
+- Ditch underscore
