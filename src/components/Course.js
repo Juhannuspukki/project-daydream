@@ -18,13 +18,12 @@ import {
 } from "recharts";
 import CustomizedXAxisTick from "./CustomTick";
 
-import kaiku from "../kaiku.json";
-
 const Course = (props) => {
   const {
     match: {
       params: { id },
     },
+    kaiku,
   } = props;
   const { name, instances } = kaiku.find((element) => element.id === id);
 

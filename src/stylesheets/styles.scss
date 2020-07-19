@@ -36,3 +36,27 @@ body.Light {
 .BrowserPic {
   padding: 2rem;
 }
+
+.Loading {
+  font-family: Righteous, sans-serif;
+  padding: 6rem 0 8rem;
+  text-align: center;
+  color: $colorWhite;
+  .Rotator {
+    fill: $colorWhite;
+    margin-bottom: 1rem;
+    animation: spin 4s linear infinite;
+  }
+}
+
+.Light {
+  .Loading {
+    color: $colorBlueDark;
+    .Rotator {
+      fill: $colorBlueDark;
+    }
+  }
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
