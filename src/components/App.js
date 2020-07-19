@@ -162,6 +162,7 @@ class App extends Component {
       ) {
         return course;
       }
+      return null;
     });
 
     // Internet Explorer 11
