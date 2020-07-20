@@ -39,6 +39,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Hide graphs if there is only one datapoint
 - Remove keyboard support for moving in detail view
 - Ditch underscore
+- Now using prettier instead of eslint
+- Removed links to POP since it no longer exists
 
 ## 1.3.1
 - Dynamically load data
+
+## 1.3.5
+- Fix sorting

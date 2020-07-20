@@ -60,16 +60,12 @@ class App extends Component {
     const { data, settings } = this.state;
 
     const constant = settings.sort.direction === "asc" ? "desc" : "asc";
-    const direction = settings.sort.column ? constant : "desc";
+    const direction = settings.sort.column ? constant : "asc";
     const sortedData = [...data];
 
-    if (settings.sort.column === "grade") {
-      sortedData.sort((a, b) => a.grade - b.grade);
-    } else {
-      sortedData.sort();
-    }
+    sortedData.sort((a, b) => (a[sortKey] < b[sortKey] ? 1 : -1));
 
-    if (direction === "desc") {
+    if (direction === "asc") {
       sortedData.reverse();
     }
 
@@ -112,13 +108,11 @@ class App extends Component {
       });
     });
 
-    if (settings.sort.column === "grade") {
-      yearlyData.sort((a, b) => a.grade - b.grade);
-    } else {
-      yearlyData.sort();
-    }
+    yearlyData.sort((a, b) =>
+      a[settings.sort.column] < b[settings.sort.column] ? 1 : -1
+    );
 
-    if (settings.sort.direction === "desc") {
+    if (settings.sort.direction === "asc") {
       yearlyData.reverse();
     }
 

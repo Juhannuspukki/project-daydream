@@ -41,20 +41,20 @@ const ListComponent = (props) => {
           <tr>
             <th className="Code" onClick={() => onSort("code")}>
               Code&nbsp;
-              {column === "code" && (direction === "asc" ? "↑" : "↓")}
+              {column === "code" && (direction === "desc" ? "↑" : "↓")}
             </th>
             <th className="Name" onClick={() => onSort("name")}>
               Name&nbsp;
-              {column === "name" && (direction === "asc" ? "↑" : "↓")}
+              {column === "name" && (direction === "desc" ? "↑" : "↓")}
             </th>
             <th className="Period">Per.</th>
             <th className="Work" onClick={() => onSort("work")}>
               Work&nbsp;
-              {column === "work" && (direction === "asc" ? "↑" : "↓")}
+              {column === "work" && (direction === "desc" ? "↑" : "↓")}
             </th>
             <th className="Rank" onClick={() => onSort("grade")}>
               #&nbsp;
-              {column === "grade" && (direction === "asc" ? "↑" : "↓")}
+              {column === "grade" && (direction === "desc" ? "↑" : "↓")}
             </th>
           </tr>
         </thead>
