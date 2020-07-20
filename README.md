@@ -33,6 +33,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Add keyboard support for moving in detail view
 
 ## 1.3.0
+- Update for node 14
 - Add responses to feedback
 - Add data tables
 - Add picture of the badge
@@ -47,3 +48,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 1.3.5
 - Fix sorting
+
+## 1.3.6
+- Make responses more responsive

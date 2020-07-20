@@ -98,6 +98,11 @@
     }
     .Response-Content {
       background-color: $colorBlueLight;
+      p {
+        position: sticky;
+        left: 8px;
+        max-width: calc(100vw - 46px);
+      }
     }
   }
 }

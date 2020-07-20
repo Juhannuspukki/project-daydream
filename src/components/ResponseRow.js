@@ -37,7 +37,7 @@ const ResponseRow = (props) => {
       {instance.response && (
         <tr className={visible ? undefined : "Hidden"}>
           <td colSpan={7} className={"Response-Content"}>
-            {instance.response}
+            <p>{instance.response}</p>
           </td>
         </tr>
       )}
