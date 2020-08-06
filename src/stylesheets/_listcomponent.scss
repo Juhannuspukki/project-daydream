@@ -9,6 +9,11 @@ td, th {
   cursor: pointer;
 }
 
+.Info-Text {
+  text-align: center;
+  color: $colorWhite;
+}
+
 tbody > tr:nth-child(odd) {
   background-color: $colorBlueLight;
 }
@@ -83,6 +88,10 @@ th.Period {
 
 
 .Light {
+  .Info-Text {
+    color: $colorBlueDark;
+  }
+
   tbody > tr, th {
     border-bottom: 1px solid $colorBlueDark;
   }

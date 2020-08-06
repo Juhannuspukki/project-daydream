@@ -51,3 +51,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 1.3.6
 - Make responses more responsive
+
+## 1.3.7
+- Re-introduce react-snap
+- Add info line above table during search

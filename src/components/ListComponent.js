@@ -36,6 +36,15 @@ const ListComponent = (props) => {
         showAll={showAll}
         showAbsolutes={showAbsolutes}
       />
+      {filter && !showAll && (
+        <p className="Info-Text">
+          <i>
+            Currently ONLY showing courses with more than 20 participants. If
+            you did not find what you were searching for, click "Show all
+            courses" above.
+          </i>
+        </p>
+      )}
       <table className="List-Component">
         <thead>
           <tr>
