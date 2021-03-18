@@ -151,7 +151,6 @@ const TextComponent = () => (
       src={"badge.svg"}
       alt={"Official Course-O-Meter overall badge"}
     />
-    <p>@oj onko nyt hyvä?</p>
   </Container>
 );
 
